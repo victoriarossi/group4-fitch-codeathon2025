@@ -174,4 +174,11 @@ AI can also help you think deeply about the why behind emissions:
 - How should environmental “benefits” or “penalties” be interpreted as signals?
 - What patterns might appear in high-emissions industries?
 
+
 Use AI as a **sustainability research assistant** to reason about the impact of sector exposure, energy use, business activities, and company practices.
+
+## AWS Access
+
+Teams can signup for AWS access using below link. This will provide full access to all AWS services for 72 hours.
+
+https://catalog.us-east-1.prod.workshops.aws/join?access-code=dced-03eacd-5e
