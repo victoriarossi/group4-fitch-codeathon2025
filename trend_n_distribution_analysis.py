@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sys
+from scipy.stats import spearmanr
 
 class Tee:
     def __init__(self, filename):
@@ -27,7 +28,7 @@ os.makedirs("plots/env_activities", exist_ok=True)
 train = pd.read_csv("data/train.csv")
 env_activities = pd.read_csv("data/environmental_activities.csv")
 
-numeric_cols = ["revenue", "environmental_score", "social_score", "governance_score"]
+numeric_cols = ["revenue", "environmental_score", "social_score", "governance_score", "target_scope_1", "target_scope_2"]
 train = train.copy()
 train["revenue_log"] = np.log1p(train["revenue"])
 
@@ -104,3 +105,78 @@ for activity_type, group in env_activities.groupby("activity_type"):
         print(outliers.sort_values().head().to_string())
         print("Largest 5 outliers:")
         print(outliers.sort_values().tail().to_string())
+
+
+# Check correlation between target_scope_1 and target_scope_2
+ts1 = train["target_scope_1"]
+ts2 = train["target_scope_2"]
+
+common_index = ts1.index.intersection(ts2.index)
+correlation = ts1.loc[common_index].corr(ts2.loc[common_index])
+print(f"\nPearsons correlation between target_scope_1 and target_scope_2: {correlation:.4f}")    
+rho, p = spearmanr(ts1.loc[common_index], ts2.loc[common_index])
+print(f"Spearman correlation between target_scope_1 and target_scope_2: {rho:.4f}")
+# As target_scope_1 increases, target_scope_2 tends to increase as well, but not in a linear way. 
+# Because Spearman's rho is higher than Pearson's r, this suggests a monotonic but non-linear relationship.
+plt.figure(figsize=(6, 6))
+sns.scatterplot(x=ts1, y=ts2)
+plt.title("Scatter plot of target_scope_1 vs target_scope_2")
+plt.xlabel("target_scope_1")
+plt.ylabel("target_scope_2")
+plt.tight_layout()
+plt.savefig("plots/target_scope_1_vs_2_scatter.png")
+plt.close()
+print("Scatter plot saved to plots/target_scope_1_vs_2_scatter.png")
+
+# Check correlation between log target_scope_1 and target_scope_2
+ts1_log = np.log1p(ts1)
+common_index = ts1_log.index.intersection(ts2.index)
+correlation_log = ts1_log.loc[common_index].corr(ts2.loc[common_index])
+print(f"\nPearsons correlation between log(target_scope_1) and target_scope_2: {correlation_log:.4f}")
+plt.figure(figsize=(6, 6))
+sns.scatterplot(x=ts1_log, y=ts2)
+plt.title("Scatter plot of log(target_scope_1) vs target_scope_2")
+plt.xlabel("log(target_scope_1)")
+plt.ylabel("target_scope_2")
+plt.tight_layout()
+plt.savefig("plots/log_target_scope_1_vs_2_scatter.png")
+plt.close()
+print("Scatter plot saved to plots/log_target_scope_1_vs_2_scatter.png")
+
+
+# Because of Monotonic relationship between target_scope_1 and target_scope_2,
+# LOWESS Smoothing Curve
+x = np.log(ts1.loc[common_index] + 1)
+y = ts2.loc[common_index]
+
+plt.figure(figsize=(8,6))
+sns.regplot(x=x, y=y, lowess=True, scatter_kws={'s':10}, line_kws={'color': 'red'})
+plt.xlabel("log(target_scope_1)")
+plt.ylabel("target_scope_2")
+plt.title("LOWESS Smoothed Trend Between target_scope_1 and target_scope_2")
+plt.tight_layout()
+plt.savefig("plots/log_target_scope_1_vs_2_lowess.png")
+plt.close()
+
+plt.figure(figsize=(8,6))
+plt.hexbin(x, y, gridsize=40, mincnt=1)
+plt.colorbar(label="counts")
+plt.xlabel("log(target_scope_1)")
+plt.ylabel("target_scope_2")
+plt.title("Hexbin Density Plot")
+plt.savefig("plots/log_target_scope_1_vs_2_hexbin.png")
+plt.close()
+
+sns.kdeplot(
+    x=x,
+    y=y,
+    fill=True,
+    levels=30,
+    thresh=0.05
+)
+plt.xlabel("log(target_scope_1)")
+plt.ylabel("target_scope_2")
+plt.title("2D KDE")
+plt.tight_layout()
+plt.savefig("plots/log_target_scope_1_vs_2_kde.png")
+plt.close()

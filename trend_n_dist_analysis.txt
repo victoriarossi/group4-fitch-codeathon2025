@@ -55,6 +55,40 @@ Q1=1.9760, Q3=2.8100, IQR=0.8340
 IQR bounds: [0.7250, 4.0610]
 Outlier count: 0
 
+=== target_scope_1 ===
+Q1=1683.0000, Q3=50000.0000, IQR=48317.0000
+IQR bounds: [-70792.5000, 122475.5000]
+Outlier count: 55
+Smallest 5 outliers:
+338    126198.0
+349    127587.0
+270    128220.0
+345    128994.0
+385    129280.0
+Largest 5 outliers:
+150    568478.0
+396    577624.0
+421    598000.0
+424    631252.0
+420    637605.0
+
+=== target_scope_2 ===
+Q1=1663.0000, Q3=47661.0000, IQR=45998.0000
+IQR bounds: [-67334.0000, 116658.0000]
+Outlier count: 49
+Smallest 5 outliers:
+380    118052.0
+381    120793.0
+382    123741.0
+383    126727.0
+384    131121.0
+Largest 5 outliers:
+424     862769.0
+425    1105788.0
+426    1503357.0
+427    1597469.0
+428    2061608.0
+
 === revenue_log ===
 Q1=20.4938, Q3=22.1367, IQR=1.6429
 IQR bounds: [18.0295, 24.6010]
@@ -165,3 +199,10 @@ Smallest 5 outliers:
 276   -0.6569
 Largest 5 outliers:
 276   -0.6569
+
+Pearsons correlation between target_scope_1 and target_scope_2: 0.5256
+Spearman correlation between target_scope_1 and target_scope_2: 0.6286
+Scatter plot saved to plots/target_scope_1_vs_2_scatter.png
+
+Pearsons correlation between log(target_scope_1) and target_scope_2: 0.3525
+Scatter plot saved to plots/log_target_scope_1_vs_2_scatter.png

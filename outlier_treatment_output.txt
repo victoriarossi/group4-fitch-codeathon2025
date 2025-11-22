@@ -1,0 +1,40 @@
+=== Phase 3: Outlier Treatment ===
+
+[revenue] Applied log1p transform (no capping).
+
+[env_score_adjustment | Disposal ]
+1st pct=-0.2361, 99th pct=0.2475
+Values capped to percentiles: 2
+
+[env_score_adjustment | End-use]
+1st pct=-0.2500, 99th pct=0.4225
+Values capped to percentiles: 1
+
+[env_score_adjustment | Farming]
+1st pct=-0.4079, 99th pct=0.0774
+Values capped to percentiles: 2
+
+[env_score_adjustment | Manufacturing]
+1st pct=-0.6170, 99th pct=0.2500
+Values capped to percentiles: 1
+
+[env_score_adjustment | Operation]
+1st pct=-1.0000, 99th pct=0.1365
+Values capped to percentiles: 3
+
+[env_score_adjustment | Other]
+1st pct=-0.6951, 99th pct=-0.0484
+Values capped to percentiles: 2
+
+[env_score_adjustment | Raw materials]
+1st pct=-1.0000, 99th pct=0.3895
+Values capped to percentiles: 1
+
+[env_score_adjustment | Transportation]
+1st pct=-0.5956, 99th pct=0.2500
+Values capped to percentiles: 1
+
+Saved:
+  data/train_outliers_fixed.csv
+  data/environmental_activities_outliers_fixed.csv
+Plots in plots/outlier_treatment/
