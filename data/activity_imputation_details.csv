@@ -1,0 +1,338 @@
+entity_id,predicted_activity_type,predicted_activity_code,predicted_env_adj,predicted_env_adj_capped,confidence,region,industry
+60,Manufacturing,C.11.2.B,-0.1,-0.1,0.3452837816098711,Western Europe,Manufacturing
+66,Operation,MTH002,-0.1,-0.1,0.24066238006846857,Western Europe,Human Health And Social Work Activities
+66,Operation,MTH002,-0.1,-0.1,0.6520693694083648,Western Europe,Information and communication
+87,Operation,MTH002,-0.1,-0.1,0.7870146747846,Western Europe,Information and communication
+98,Other,ENVIB010,-0.1,-0.1,0.19620694877310815,Western Europe,Transportation And Storage
+972,Operation,MTH002,-0.1,-0.1,0.6931889975865603,Western Europe,Information and communication
+972,Operation,MTH002,-0.1,-0.1,0.6931889975865603,Western Europe,Information and communication
+972,Operation,MTH002,-0.1,-0.1,0.6931889975865603,Western Europe,Information and communication
+972,Operation,MTH002,-0.1,-0.1,0.6931889975865603,Western Europe,Information and communication
+1063,Operation,MTH002,-0.1,-0.1,0.594345811774826,Western Europe,Information and communication
+1079,Operation,MTH002,-0.1,-0.1,0.6332560652140029,Western Europe,Financial and insurance activities
+1091,Operation,MTH002,-0.1,-0.1,0.6825597538189097,Western Europe,Financial and insurance activities
+1129,Other,ENVIB010,-0.1,-0.1,0.3411937113501251,Western Europe,Public Administration And Defence; Compulsory Social Security
+1131,Operation,MTH002,-0.1,-0.1,0.4122246446122515,Western Europe,Human Health And Social Work Activities
+1157,Raw materials,C.22.34.B,-0.24,-0.24,0.341198452531433,Western Europe,Wholesale And Retail Trade
+1160,End-use,C.14.34.P,-0.014515808,-0.014515808,0.34413813440991353,Western Europe,"Professional, scientific and technical activities"
+1160,Operation,MTH002,-0.1,-0.1,0.6380567794275117,Western Europe,Information and communication
+1170,Other,ENVIB010,-0.1,-0.1,0.586799407649134,Northern America,Manufacturing
+1170,Other,ENVIB010,-0.1,-0.1,0.586799407649134,Northern America,Manufacturing
+1170,Other,ENVIB010,-0.1,-0.1,0.34065097543935413,Northern America,Wholesale And Retail Trade
+1171,Operation,MTH002,-0.1,-0.1,0.46687157515631345,Western Europe,Manufacturing
+1171,Operation,MTH002,-0.1,-0.1,0.46687157515631345,Western Europe,Manufacturing
+1171,Operation,MTH002,-0.1,-0.1,0.2753642617216508,Western Europe,"Professional, scientific and technical activities"
+1181,Operation,MTH002,-0.1,-0.1,0.2547258250877142,Western Europe,Wholesale And Retail Trade
+1205,End-use,C.14.34.P,-0.014515808,-0.014515808,0.31992865612875476,Western Europe,Manufacturing
+1213,Operation,MTH002,-0.1,-0.1,0.5331731135204645,Western Europe,Manufacturing
+1213,Operation,MTH002,-0.1,-0.1,0.5331731135204645,Western Europe,Manufacturing
+1214,Operation,MTH002,-0.1,-0.1,0.5915044891624599,Western Europe,Information and communication
+1214,Operation,MTH002,-0.1,-0.1,0.6687382539788954,Western Europe,Manufacturing
+1225,Raw materials,C.22.34.B,-0.24,-0.24,0.32202561945817787,Western Europe,"Professional, Scientific And Technical Activities"
+1226,Raw materials,C.22.34.B,-0.24,-0.24,0.561561877077912,Western Europe,Manufacturing
+1226,Raw materials,C.22.34.B,-0.24,-0.24,0.3321632239995487,Western Europe,Wholesale And Retail Trade
+1227,Other,ENVIB010,-0.1,-0.1,0.29122326777884205,Western Europe,Wholesale And Retail Trade
+1229,Manufacturing,C.11.2.B,-0.1,-0.1,0.4299767379595856,Western Europe,Manufacturing
+1229,Operation,MTH002,-0.1,-0.1,0.46976382470826544,Western Europe,Construction
+1238,Operation,MTH002,-0.1,-0.1,0.46396813883699023,Northern America,"Professional, Scientific And Technical Activities"
+1238,Operation,MTH002,-0.1,-0.1,0.46396813883699023,Northern America,"Professional, Scientific And Technical Activities"
+1238,Operation,MTH002,-0.1,-0.1,0.46396813883699023,Northern America,"Professional, Scientific And Technical Activities"
+1239,Operation,MTH002,-0.1,-0.1,0.39827087954765195,Western Europe,Transportation And Storage
+1245,Other,ENVIB010,-0.1,-0.1,0.4451070824188215,Western Europe,Manufacturing
+1268,Operation,MTH002,-0.1,-0.1,0.5682019273583595,Western Europe,Manufacturing
+1268,Other,ENVIB010,-0.1,-0.1,0.4679337125793675,Western Europe,Wholesale And Retail Trade
+1268,Other,ENVIB010,-0.1,-0.1,0.6586388369692937,Western Europe,Accommodation And Food Service Activities
+1268,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.2950458890640681,Western Europe,"Arts, Sports And Recreation"
+1295,Operation,MTH002,-0.1,-0.1,0.4467329765450102,Western Europe,Public Administration And Defence; Compulsory Social Security
+1316,Operation,MTH002,-0.1,-0.1,0.35274570546938244,Western Europe,Human Health And Social Work Activities
+1320,Operation,MTH002,-0.1,-0.1,0.471027044030234,Western Europe,"Professional, Scientific And Technical Activities"
+1320,Operation,MTH002,-0.1,-0.1,0.578744790110495,Western Europe,Financial and insurance activities
+1320,Operation,MTH002,-0.1,-0.1,0.28202691962075693,Western Europe,Financial And Insurance Activities
+1331,Operation,MTH002,-0.1,-0.1,0.8135828637476386,Northern America,Information and communication
+1358,Manufacturing,C.11.2.B,-0.1,-0.1,0.29860648896393127,Western Europe,"Professional, scientific and technical activities"
+1366,Operation,MTH002,-0.1,-0.1,0.5556073010958449,Western Europe,Construction
+1378,Operation,MTH002,-0.1,-0.1,0.6552749627619524,Western Europe,Information and communication
+1415,Other,ENVIB010,-0.1,-0.1,0.3846868489679296,Eastern Asia,Manufacturing
+1415,Other,ENVIB010,-0.1,-0.1,0.3846868489679296,Eastern Asia,Manufacturing
+1415,Other,ENVIB010,-0.1,-0.1,0.3846868489679296,Eastern Asia,Manufacturing
+1415,Other,ENVIB010,-0.1,-0.1,0.3846868489679296,Eastern Asia,Manufacturing
+1425,Operation,MTH002,-0.1,-0.1,0.3981079148901064,Western Europe,Human Health And Social Work Activities
+1432,Raw materials,C.22.34.B,-0.24,-0.24,0.3396130912297147,Western Europe,Wholesale And Retail Trade
+1437,Operation,MTH002,-0.1,-0.1,0.6066710381320969,Western Europe,Financial and insurance activities
+1437,Farming,A.1.4.B,-0.073516405,-0.073516405,0.22812232397645982,Western Europe,"Professional, Scientific And Technical Activities"
+1443,Operation,MTH002,-0.1,-0.1,0.5172119526389138,Western Europe,Financial and insurance activities
+1443,Operation,MTH002,-0.1,-0.1,0.6350061628233183,Western Europe,Information and communication
+1457,Operation,MTH002,-0.1,-0.1,0.747084234158124,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1457,Operation,MTH002,-0.1,-0.1,0.747084234158124,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1484,Manufacturing,C.11.2.B,-0.1,-0.1,0.3332518460047245,Northern America,Manufacturing
+1490,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.3381093386083435,Western Europe,Education
+1491,Operation,MTH002,-0.1,-0.1,0.3757728753759013,Northern America,Wholesale And Retail Trade
+1494,Operation,MTH002,-0.1,-0.1,0.3766944467764487,Northern America,Human Health And Social Work Activities
+1511,Operation,MTH002,-0.1,-0.1,0.4454594448402009,Western Europe,Manufacturing
+1553,Operation,MTH002,-0.1,-0.1,0.41157409267296413,Western Europe,Human Health And Social Work Activities
+1564,Operation,MTH002,-0.1,-0.1,0.4444627886240627,Western Europe,"Professional, Scientific And Technical Activities"
+1594,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.40573969923314385,Western Europe,Education
+1639,Operation,MTH002,-0.1,-0.1,0.4594558778643126,Western Europe,Human Health And Social Work Activities
+1645,Operation,MTH002,-0.1,-0.1,0.644543862025775,Western Europe,Information and communication
+1647,Other,ENVIB010,-0.1,-0.1,0.40258499947044146,Northern America,Manufacturing
+1650,Operation,MTH002,-0.1,-0.1,0.42649988264513894,Western Europe,"Professional, scientific and technical activities"
+1650,Operation,MTH002,-0.1,-0.1,0.3951071748646704,Western Europe,Manufacturing
+1658,Operation,MTH002,-0.1,-0.1,0.5607149569907377,Western Europe,Information and communication
+1696,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.3488297812589134,Western Europe,Education
+1722,Other,ENVIB010,-0.1,-0.1,0.4077812146715865,Western Europe,Manufacturing
+1722,Other,ENVIB010,-0.1,-0.1,0.4077812146715865,Western Europe,Manufacturing
+1744,Operation,MTH002,-0.1,-0.1,0.9382468709736125,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1744,Operation,MTH002,-0.1,-0.1,0.9382468709736125,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1744,Manufacturing,C.11.2.B,-0.1,-0.1,0.40838638038671893,Western Europe,"Professional, Scientific And Technical Activities"
+1744,Manufacturing,C.11.2.B,-0.1,-0.1,0.40838638038671893,Western Europe,"Professional, Scientific And Technical Activities"
+1747,Manufacturing,C.11.2.B,-0.1,-0.1,0.4430524899552938,Northern America,Manufacturing
+1748,Operation,MTH002,-0.1,-0.1,0.5396026286442344,Northern America,Accommodation And Food Service Activities
+1750,End-use,C.14.34.P,-0.014515808,-0.014515808,0.7079971934076154,Northern America,Manufacturing
+1750,End-use,C.14.34.P,-0.014515808,-0.014515808,0.7079971934076154,Northern America,Manufacturing
+1776,Raw materials,C.22.34.B,-0.24,-0.24,0.5934718332728662,Western Europe,Manufacturing
+1776,Raw materials,C.22.34.B,-0.24,-0.24,0.5934718332728662,Western Europe,Manufacturing
+1784,Operation,MTH002,-0.1,-0.1,0.46600992997057233,Western Europe,Public Administration And Defence; Compulsory Social Security
+1785,Operation,MTH002,-0.1,-0.1,0.3515376664541847,Western Europe,Manufacturing
+1794,Operation,MTH002,-0.1,-0.1,0.5866550821443721,Western Europe,Information and communication
+1798,Operation,MTH002,-0.1,-0.1,0.36854744167759257,Northern America,"Professional, scientific and technical activities"
+1798,Manufacturing,C.11.2.B,-0.1,-0.1,0.3500334036994869,Northern America,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1798,Manufacturing,C.11.2.B,-0.1,-0.1,0.3500334036994869,Northern America,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1798,Operation,MTH002,-0.1,-0.1,0.36854744167759257,Northern America,"Professional, scientific and technical activities"
+1799,Other,ENVIB010,-0.1,-0.1,0.45909966097800475,Northern America,"Electricity, Gas, Steam And Air Conditioning Supply"
+1835,Raw materials,C.22.34.B,-0.24,-0.24,0.3509525496056932,Northern America,Manufacturing
+1835,Operation,MTH002,-0.1,-0.1,0.48062341801883524,Northern America,Construction
+1835,Operation,MTH002,-0.1,-0.1,0.48062341801883524,Northern America,Construction
+1860,Operation,MTH002,-0.1,-0.1,0.7782299050935836,Western Europe,Information and communication
+1860,Transportation,M.70.4.P,0.0238978265,0.0238978265,0.4552072305197148,Western Europe,"Professional, scientific and technical activities"
+1869,Other,ENVIB010,-0.1,-0.1,0.37587965537668233,Northern America,Manufacturing
+1929,Operation,MTH002,-0.1,-0.1,0.34407139806287285,Northern America,Manufacturing
+1929,Operation,MTH002,-0.1,-0.1,0.34407139806287285,Northern America,Manufacturing
+1929,Operation,MTH002,-0.1,-0.1,0.34407139806287285,Northern America,Manufacturing
+1929,Operation,MTH002,-0.1,-0.1,0.34407139806287285,Northern America,Manufacturing
+1929,Operation,MTH002,-0.1,-0.1,0.34407139806287285,Northern America,Manufacturing
+1929,Operation,MTH002,-0.1,-0.1,0.34407139806287285,Northern America,Manufacturing
+1954,Operation,MTH002,-0.1,-0.1,0.4904473065159663,Northern America,Manufacturing
+1958,Operation,MTH002,-0.1,-0.1,0.6228366650561042,Northern America,Construction
+1958,Operation,MTH002,-0.1,-0.1,0.9094212348864458,Northern America,Information and communication
+1973,Other,ENVIB010,-0.1,-0.1,0.5487429531467176,Northern America,Accommodation And Food Service Activities
+1973,Other,ENVIB010,-0.1,-0.1,0.2613093262954453,Northern America,Human Health And Social Work Activities
+1973,Raw materials,C.22.34.B,-0.24,-0.24,0.4749403900033887,Northern America,Manufacturing
+2026,Operation,MTH002,-0.1,-0.1,0.7592609134117638,Northern America,Information and communication
+2037,Operation,MTH002,-0.1,-0.1,0.7654415537334808,Northern America,Information and communication
+2051,Operation,MTH002,-0.1,-0.1,0.3895742737306457,Western Europe,Manufacturing
+2051,Operation,MTH002,-0.1,-0.1,0.3895742737306457,Western Europe,Manufacturing
+2084,Operation,MTH002,-0.1,-0.1,0.3453317229424428,Western Europe,Manufacturing
+2084,Operation,MTH002,-0.1,-0.1,0.3453317229424428,Western Europe,Manufacturing
+2084,Operation,MTH002,-0.1,-0.1,0.3453317229424428,Western Europe,Manufacturing
+2132,Operation,MTH002,-0.1,-0.1,0.27138533903442735,Western Europe,Construction
+2132,Operation,MTH002,-0.1,-0.1,0.4414052055498858,Western Europe,Information and communication
+2143,Manufacturing,C.11.2.B,-0.1,-0.1,0.271861906232184,Northern America,"Professional, Scientific And Technical Activities"
+2149,Operation,MTH002,-0.1,-0.1,0.3910793946813132,Western Europe,Manufacturing
+2165,Operation,MTH002,-0.1,-0.1,0.48193292288662337,Northern America,Manufacturing
+2165,Operation,MTH002,-0.1,-0.1,0.48193292288662337,Northern America,Manufacturing
+2165,Operation,MTH002,-0.1,-0.1,0.48193292288662337,Northern America,Manufacturing
+2165,Operation,MTH002,-0.1,-0.1,0.48193292288662337,Northern America,Manufacturing
+2209,Manufacturing,C.11.2.B,-0.1,-0.1,0.3277761379325852,Western Europe,Manufacturing
+2209,Other,ENVIB010,-0.1,-0.1,0.3760357658218087,Western Europe,Transportation And Storage
+2226,Other,ENVIB010,-0.1,-0.1,0.2996790777241898,Western Europe,Transportation And Storage
+2246,Operation,MTH002,-0.1,-0.1,0.6902270739006856,Western Europe,Manufacturing
+2254,Operation,MTH002,-0.1,-0.1,0.6899139473897737,Western Europe,Financial and insurance activities
+2265,Operation,MTH002,-0.1,-0.1,0.6621230132463802,Western Europe,Financial and insurance activities
+2265,Operation,MTH002,-0.1,-0.1,0.6621230132463802,Western Europe,Financial and insurance activities
+2285,Operation,MTH002,-0.1,-0.1,0.7726684132500269,Western Europe,Information and communication
+2289,Operation,MTH002,-0.1,-0.1,0.5688170866801747,Caribbean,Information and communication
+2289,Farming,A.1.4.B,-0.073516405,-0.073516405,0.5551983596112237,Caribbean,Wholesale And Retail Trade
+2292,Operation,MTH002,-0.1,-0.1,0.5236464675341888,Western Europe,Financial and insurance activities
+2324,Operation,MTH002,-0.1,-0.1,0.7960425309958563,Northern America,Financial and insurance activities
+2365,Operation,MTH002,-0.1,-0.1,0.4236021663969592,Western Europe,Manufacturing
+2377,Farming,A.1.4.B,-0.073516405,-0.073516405,0.28296497910333596,Eastern Asia,Manufacturing
+2380,Manufacturing,C.11.2.B,-0.1,-0.1,0.3261501549499842,Northern America,"Professional, scientific and technical activities"
+2380,End-use,C.14.34.P,-0.014515808,-0.014515808,0.3985378614589195,Northern America,Construction
+2380,Manufacturing,C.11.2.B,-0.1,-0.1,0.33446768992641057,Northern America,"Professional, Scientific And Technical Activities"
+2435,Operation,MTH002,-0.1,-0.1,0.8060787369948343,Northern America,Information and communication
+2435,Operation,MTH002,-0.1,-0.1,0.8060787369948343,Northern America,Information and communication
+2509,Operation,MTH002,-0.1,-0.1,0.2974654133951864,Northern America,"Professional, scientific and technical activities"
+2509,Operation,MTH002,-0.1,-0.1,0.2974654133951864,Northern America,"Professional, scientific and technical activities"
+2509,Operation,MTH002,-0.1,-0.1,0.7637005208916152,Northern America,Information and communication
+2517,Operation,MTH002,-0.1,-0.1,0.43713994451237376,Western Europe,Public Administration And Defence; Compulsory Social Security
+2517,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.33416644260406875,Western Europe,Education
+2545,Other,ENVIB010,-0.1,-0.1,0.5004860814983514,Western Europe,Transportation And Storage
+2589,Operation,MTH002,-0.1,-0.1,0.6982185412084332,Northern America,Information and communication
+2601,Other,ENVIB010,-0.1,-0.1,0.5605985783737332,Northern America,Manufacturing
+2605,End-use,C.14.34.P,-0.014515808,-0.014515808,0.4565763086526429,Northern America,Manufacturing
+2605,End-use,C.14.34.P,-0.014515808,-0.014515808,0.4565763086526429,Northern America,Manufacturing
+2616,Operation,MTH002,-0.1,-0.1,0.5341767370610537,Western Europe,Accommodation And Food Service Activities
+2616,Operation,MTH002,-0.1,-0.1,0.5341767370610537,Western Europe,Accommodation And Food Service Activities
+2616,Operation,MTH002,-0.1,-0.1,0.5341767370610537,Western Europe,Accommodation And Food Service Activities
+2616,Operation,MTH002,-0.1,-0.1,0.5341767370610537,Western Europe,Accommodation And Food Service Activities
+2633,Operation,MTH002,-0.1,-0.1,0.37913770827259935,Northern America,"Professional, scientific and technical activities"
+2633,Other,ENVIB010,-0.1,-0.1,0.3594652731811601,Northern America,Wholesale And Retail Trade
+2645,Manufacturing,C.11.2.B,-0.1,-0.1,0.3625197074089986,Northern America,"Professional, scientific and technical activities"
+2645,End-use,C.14.34.P,-0.014515808,-0.014515808,0.3200398783729971,Northern America,Manufacturing
+2645,End-use,C.14.34.P,-0.014515808,-0.014515808,0.3200398783729971,Northern America,Manufacturing
+2690,Raw materials,C.22.34.B,-0.24,-0.24,0.4145891983949611,Western Europe,Manufacturing
+2703,Operation,MTH002,-0.1,-0.1,0.829260299164447,Northern America,Financial and insurance activities
+2756,Operation,MTH002,-0.1,-0.1,0.8548963384618897,Northern America,Information and communication
+2774,End-use,C.14.34.P,-0.014515808,-0.014515808,0.4664905575941501,Northern America,Manufacturing
+2774,End-use,C.14.34.P,-0.014515808,-0.014515808,0.4664905575941501,Northern America,Manufacturing
+2774,Operation,MTH002,-0.1,-0.1,0.3193900562827093,Northern America,Administrative And Support Service Activities
+2790,End-use,C.14.34.P,-0.014515808,-0.014515808,0.39999999999999997,Northern America,Wholesale And Retail Trade
+2790,End-use,C.14.34.P,-0.014515808,-0.014515808,0.39999999999999997,Northern America,Wholesale And Retail Trade
+2805,Operation,MTH002,-0.1,-0.1,0.5891895537386788,Northern America,Manufacturing
+2805,Operation,MTH002,-0.1,-0.1,0.5891895537386788,Northern America,Manufacturing
+2827,Operation,MTH002,-0.1,-0.1,0.3622984132673171,Northern America,"Professional, scientific and technical activities"
+2827,Operation,MTH002,-0.1,-0.1,0.27292828928933255,Northern America,Wholesale And Retail Trade
+2827,Operation,MTH002,-0.1,-0.1,0.5966448136204759,Northern America,Information and communication
+2862,Operation,MTH002,-0.1,-0.1,0.544463939027632,Northern America,Financial and insurance activities
+2862,Operation,MTH002,-0.1,-0.1,0.6201387943416856,Northern America,Information and communication
+2862,Operation,MTH002,-0.1,-0.1,0.6201387943416856,Northern America,Information and communication
+2889,Operation,MTH002,-0.1,-0.1,0.3975425054882344,Western Europe,Accommodation And Food Service Activities
+2897,End-use,C.14.34.P,-0.014515808,-0.014515808,0.40566147606377745,Northern America,Manufacturing
+2897,End-use,C.14.34.P,-0.014515808,-0.014515808,0.40566147606377745,Northern America,Manufacturing
+2918,Manufacturing,C.11.2.B,-0.1,-0.1,0.2886916633654104,Northern America,Manufacturing
+2920,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.37023125590186273,Western Europe,Human Health And Social Work Activities
+2925,Operation,MTH002,-0.1,-0.1,0.6599129668633992,Northern America,Financial and insurance activities
+2925,Operation,MTH002,-0.1,-0.1,0.3085846885500015,Northern America,Education
+2951,Manufacturing,C.11.2.B,-0.1,-0.1,0.27959557205095953,Northern America,Manufacturing
+2953,Raw materials,C.22.34.B,-0.24,-0.24,0.3641323264711306,Northern America,Manufacturing
+2977,Operation,MTH002,-0.1,-0.1,0.41976278622962115,Northern America,"Professional, scientific and technical activities"
+2977,Manufacturing,C.11.2.B,-0.1,-0.1,0.4287354178261877,Northern America,Manufacturing
+2977,Operation,MTH002,-0.1,-0.1,0.41976278622962115,Northern America,"Professional, scientific and technical activities"
+2977,Operation,MTH002,-0.1,-0.1,0.41976278622962115,Northern America,"Professional, scientific and technical activities"
+3003,Operation,MTH002,-0.1,-0.1,0.47564086246096277,Northern America,Administrative And Support Service Activities
+3005,Manufacturing,C.11.2.B,-0.1,-0.1,0.43226771648557827,Northern America,Manufacturing
+3035,Manufacturing,C.11.2.B,-0.1,-0.1,0.49047273319641294,Northern America,Mining And Quarrying
+3035,Manufacturing,C.11.2.B,-0.1,-0.1,0.3197108479591705,Northern America,"Electricity, Gas, Steam And Air Conditioning Supply"
+3035,End-use,C.14.34.P,-0.014515808,-0.014515808,0.39999999999999997,Northern America,Transportation And Storage
+3036,Operation,MTH002,-0.1,-0.1,0.41898582682704644,Northern America,"Professional, scientific and technical activities"
+3036,Operation,MTH002,-0.1,-0.1,0.41898582682704644,Northern America,"Professional, scientific and technical activities"
+3036,Operation,MTH002,-0.1,-0.1,0.5188958556892832,Northern America,Manufacturing
+3048,Operation,MTH002,-0.1,-0.1,0.5417133523617342,Western Europe,"Professional, Scientific And Technical Activities"
+3086,Other,ENVIB010,-0.1,-0.1,0.33157397756569146,Northern America,Manufacturing
+3086,Other,ENVIB010,-0.1,-0.1,0.33157397756569146,Northern America,Manufacturing
+3148,Raw materials,C.22.34.B,-0.24,-0.24,0.278681752137678,Western Europe,Manufacturing
+3148,Raw materials,C.22.34.B,-0.24,-0.24,0.278681752137678,Western Europe,Manufacturing
+3160,Operation,MTH002,-0.1,-0.1,0.43377482733772565,Western Europe,Financial And Insurance Activities
+3160,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.42152629022390237,Western Europe,Education
+3160,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.42152629022390237,Western Europe,Education
+3160,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.42152629022390237,Western Europe,Education
+3217,Other,ENVIB010,-0.1,-0.1,0.5199648981689234,Northern America,Manufacturing
+3232,Operation,MTH002,-0.1,-0.1,0.6044768669648966,Western Europe,Manufacturing
+3232,Raw materials,C.22.34.B,-0.24,-0.24,0.23499865836880565,Western Europe,Wholesale And Retail Trade
+3232,Operation,MTH002,-0.1,-0.1,0.6044768669648966,Western Europe,Manufacturing
+3256,Operation,MTH002,-0.1,-0.1,0.7051087545821382,Western Europe,Construction
+3256,Operation,MTH002,-0.1,-0.1,0.6337344544542697,Western Europe,"Electricity, Gas, Steam And Air Conditioning Supply"
+3289,Operation,MTH002,-0.1,-0.1,0.6403716990432679,Western Europe,Information and communication
+3289,Operation,MTH002,-0.1,-0.1,0.4108350839085454,Western Europe,"Professional, Scientific And Technical Activities"
+3295,Operation,MTH002,-0.1,-0.1,0.33476067715983654,Western Europe,"Electricity, Gas, Steam And Air Conditioning Supply"
+3295,Operation,MTH002,-0.1,-0.1,0.33476067715983654,Western Europe,"Electricity, Gas, Steam And Air Conditioning Supply"
+3308,Operation,MTH002,-0.1,-0.1,0.6848077372927418,Western Europe,Information and communication
+3308,Operation,MTH002,-0.1,-0.1,0.6848077372927418,Western Europe,Information and communication
+3310,Transportation,M.70.4.P,0.0238978265,0.0238978265,0.40577892161068013,Western Europe,"Professional, scientific and technical activities"
+3312,Operation,MTH002,-0.1,-0.1,0.7082170337808449,Western Europe,Information and communication
+3320,Other,ENVIB010,-0.1,-0.1,0.4112105914101959,Western Europe,Manufacturing
+3320,Operation,MTH002,-0.1,-0.1,0.50437885651975,Western Europe,"Professional, Scientific And Technical Activities"
+3342,Other,ENVIB010,-0.1,-0.1,0.2866459977069138,Western Europe,Manufacturing
+3342,Other,ENVIB010,-0.1,-0.1,0.2866459977069138,Western Europe,Manufacturing
+3343,Manufacturing,C.11.2.B,-0.1,-0.1,0.33253822549944034,Northern America,Manufacturing
+3350,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.3277333837615796,Western Europe,Education
+3350,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.3277333837615796,Western Europe,Education
+3355,Operation,MTH002,-0.1,-0.1,0.7577331642073479,Northern America,Information and communication
+3355,Operation,MTH002,-0.1,-0.1,0.7577331642073479,Northern America,Information and communication
+3377,Operation,MTH002,-0.1,-0.1,0.6455954500184147,Northern America,Information and communication
+3395,Other,ENVIB010,-0.1,-0.1,0.3239521769933351,Northern America,Transportation And Storage
+3395,Other,ENVIB010,-0.1,-0.1,0.3239521769933351,Northern America,Transportation And Storage
+3395,Operation,MTH002,-0.1,-0.1,0.3736192932428436,Northern America,Information and communication
+3410,Operation,MTH002,-0.1,-0.1,0.23026623660299672,Western Europe,Wholesale And Retail Trade
+3419,End-use,C.14.34.P,-0.014515808,-0.014515808,0.3931209051458807,Northern America,Wholesale And Retail Trade
+3419,Manufacturing,C.11.2.B,-0.1,-0.1,0.2894135172001662,Northern America,"Electricity, Gas, Steam And Air Conditioning Supply"
+3419,End-use,C.14.34.P,-0.014515808,-0.014515808,0.3165745146662109,Northern America,Transportation And Storage
+3429,Operation,MTH002,-0.1,-0.1,0.3153655940921899,Western Europe,Construction
+3468,Raw materials,C.22.34.B,-0.24,-0.24,0.5985063438107996,Northern America,Manufacturing
+3498,Manufacturing,C.11.2.B,-0.1,-0.1,0.3608353677351939,Western Europe,Construction
+3498,Manufacturing,C.11.2.B,-0.1,-0.1,0.3608353677351939,Western Europe,Construction
+3498,Manufacturing,C.11.2.B,-0.1,-0.1,0.3608353677351939,Western Europe,Construction
+3536,Operation,MTH002,-0.1,-0.1,0.22546472332550657,Northern America,"Agriculture, Forestry And Fishing"
+3539,Operation,MTH002,-0.1,-0.1,0.6539971909144989,Western Europe,Information and communication
+3546,Operation,MTH002,-0.1,-0.1,0.4690097089442205,Western Europe,Manufacturing
+3576,Operation,MTH002,-0.1,-0.1,0.8816655977533112,Western Europe,Information and communication
+3576,Operation,MTH002,-0.1,-0.1,0.8816655977533112,Western Europe,Information and communication
+3576,Operation,MTH002,-0.1,-0.1,0.3980581889920198,Western Europe,"Professional, scientific and technical activities"
+3601,Raw materials,C.22.34.B,-0.24,-0.24,0.3231695712274382,Western Europe,Manufacturing
+3606,Raw materials,C.22.34.B,-0.24,-0.24,0.31862830644176826,Western Europe,Manufacturing
+3606,Raw materials,C.22.34.B,-0.24,-0.24,0.31862830644176826,Western Europe,Manufacturing
+3618,Other,ENVIB010,-0.1,-0.1,0.5428834316486173,Northern America,Accommodation And Food Service Activities
+3634,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.24825409064578535,Northern America,Human Health And Social Work Activities
+3634,Operation,MTH002,-0.1,-0.1,0.4479852390378328,Northern America,Accommodation And Food Service Activities
+3665,Operation,MTH002,-0.1,-0.1,0.6715047591642717,Northern America,Information and communication
+3668,Operation,MTH002,-0.1,-0.1,0.6012262675897158,Western Europe,Financial and insurance activities
+3668,Farming,A.1.4.B,-0.073516405,-0.073516405,0.22721134086743092,Western Europe,"Professional, Scientific And Technical Activities"
+3669,Operation,MTH002,-0.1,-0.1,0.4825876216323676,Australia and New Zealand,Information and communication
+3669,Farming,A.1.4.B,-0.073516405,-0.073516405,0.547662950441281,Australia and New Zealand,"Electricity, Gas, Steam And Air Conditioning Supply"
+3669,Operation,MTH002,-0.1,-0.1,0.4825876216323676,Australia and New Zealand,Information and communication
+3669,Farming,A.1.4.B,-0.073516405,-0.073516405,0.547662950441281,Australia and New Zealand,"Electricity, Gas, Steam And Air Conditioning Supply"
+3694,Operation,MTH002,-0.1,-0.1,0.38070154174110066,Western Europe,Wholesale And Retail Trade
+3694,Operation,MTH002,-0.1,-0.1,0.38070154174110066,Western Europe,Wholesale And Retail Trade
+3694,Operation,MTH002,-0.1,-0.1,0.7556729559717549,Western Europe,Information and communication
+3694,Operation,MTH002,-0.1,-0.1,0.7556729559717549,Western Europe,Information and communication
+3694,Operation,MTH002,-0.1,-0.1,0.7556729559717549,Western Europe,Information and communication
+3694,Operation,MTH002,-0.1,-0.1,0.7556729559717549,Western Europe,Information and communication
+3694,Operation,MTH002,-0.1,-0.1,0.7556729559717549,Western Europe,Information and communication
+3694,Operation,MTH002,-0.1,-0.1,0.7556729559717549,Western Europe,Information and communication
+3753,Operation,MTH002,-0.1,-0.1,0.6904322273710588,Western Europe,Information and communication
+3753,Operation,MTH002,-0.1,-0.1,0.4940503202187304,Western Europe,"Professional, Scientific And Technical Activities"
+3769,Other,ENVIB010,-0.1,-0.1,0.40326658672361265,Western Europe,Manufacturing
+3785,Manufacturing,C.11.2.B,-0.1,-0.1,0.39586324006872603,Western Europe,Manufacturing
+3800,Operation,MTH002,-0.1,-0.1,0.5315441083241826,Western Europe,Financial and insurance activities
+3916,Operation,MTH002,-0.1,-0.1,0.435002038777933,Western Europe,Manufacturing
+3916,End-use,C.14.34.P,-0.014515808,-0.014515808,0.38675632421434575,Western Europe,"Professional, scientific and technical activities"
+3936,End-use,C.14.34.P,-0.014515808,-0.014515808,0.4057030068167021,Western Europe,"Professional, scientific and technical activities"
+3937,Operation,MTH002,-0.1,-0.1,0.6364219352042644,Northern America,Information and communication
+3954,Operation,MTH002,-0.1,-0.1,0.5500345740253182,Northern America,Information and communication
+3954,Operation,MTH002,-0.1,-0.1,0.3495132121229786,Northern America,"Professional, Scientific And Technical Activities"
+3954,Operation,MTH002,-0.1,-0.1,0.3495132121229786,Northern America,"Professional, Scientific And Technical Activities"
+3976,Other,ENVIB010,-0.1,-0.1,0.5419663288949368,Western Europe,Transportation And Storage
+3991,Operation,MTH002,-0.1,-0.1,0.3794452370960178,Western Europe,Financial And Insurance Activities
+3992,Operation,MTH002,-0.1,-0.1,0.3397956818094888,Western Europe,Manufacturing
+4030,Operation,MTH002,-0.1,-0.1,0.668449965715119,Northern America,Information and communication
+4075,Operation,MTH002,-0.1,-0.1,0.3395620680554632,Western Europe,Financial And Insurance Activities
+4075,Operation,MTH002,-0.1,-0.1,0.39266349120827015,Western Europe,Construction
+4075,Other,ENVIB010,-0.1,-0.1,0.2985504523715633,Western Europe,Transportation And Storage
+4075,Other,ENVIB010,-0.1,-0.1,0.2985504523715633,Western Europe,Transportation And Storage
+4090,End-use,C.14.34.P,-0.014515808,-0.014515808,0.4679071663636992,Northern America,Wholesale And Retail Trade
+4090,End-use,C.14.34.P,-0.014515808,-0.014515808,0.3999999999999999,Northern America,Information and communication
+4090,Manufacturing,C.11.2.B,-0.1,-0.1,0.2590536591515589,Northern America,"Professional, scientific and technical activities"
+4090,End-use,C.14.34.P,-0.014515808,-0.014515808,0.3999999999999999,Northern America,Information and communication
+4134,Other,ENVIB010,-0.1,-0.1,0.26060737131032063,Western Europe,Wholesale And Retail Trade
+4146,Operation,MTH002,-0.1,-0.1,0.4140097870363986,Western Europe,Construction
+4146,Operation,MTH002,-0.1,-0.1,0.4140097870363986,Western Europe,Construction
+4188,Operation,MTH002,-0.1,-0.1,0.5807544293620823,Western Europe,Financial and insurance activities
+4233,Operation,MTH002,-0.1,-0.1,0.7895194547464589,Western Europe,Financial and insurance activities
+10054,Operation,MTH002,-0.1,-0.1,0.3065425761922701,Northern America,Manufacturing
+10054,Operation,MTH002,-0.1,-0.1,0.3065425761922701,Northern America,Manufacturing
+10054,Operation,MTH002,-0.1,-0.1,0.3065425761922701,Northern America,Manufacturing
+10054,Operation,MTH002,-0.1,-0.1,0.36174306337404155,Northern America,Mining And Quarrying
+10061,End-use,C.14.34.P,-0.014515808,-0.014515808,0.40680036076194503,Western Europe,Financial And Insurance Activities
+10153,Other,ENVIB010,-0.1,-0.1,0.5879126780207155,Western Europe,Transportation And Storage
+10213,Raw materials,C.22.34.B,-0.24,-0.24,0.25352066965224795,Northern America,Administrative And Support Service Activities
+10233,Farming,A.1.4.B,-0.073516405,-0.073516405,0.42109183869815714,Western Europe,Manufacturing
+10286,Raw materials,C.22.34.B,-0.24,-0.24,0.41116391571437266,Western Europe,"Professional, Scientific And Technical Activities"
+10314,Operation,MTH002,-0.1,-0.1,0.4446620347839476,Western Europe,"Professional, Scientific And Technical Activities"
+10368,Operation,MTH002,-0.1,-0.1,0.5089441892178868,Northern America,Information and communication
+10368,Other,ENVIB010,-0.1,-0.1,0.4557395315180835,Northern America,Manufacturing
+10372,Operation,MTH002,-0.1,-0.1,0.539297771543389,Western Europe,Information and communication
+10589,Raw materials,C.22.34.B,-0.24,-0.24,0.37584298409553246,Western Europe,Manufacturing
+10600,Operation,MTH002,-0.1,-0.1,0.7460143146125507,Northern America,Information and communication
+10700,Transportation,M.70.4.P,0.0238978265,0.0238978265,0.409633025805879,Western Europe,"Professional, scientific and technical activities"
+10704,Operation,MTH002,-0.1,-0.1,0.7319144783265389,Western Europe,Information and communication
+10704,Operation,MTH002,-0.1,-0.1,0.7319144783265389,Western Europe,Information and communication
+10760,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.3052671976412105,Northern America,Education
+10760,Raw materials,C.22.34.B,-0.24,-0.24,0.3909650439065674,Northern America,Transportation And Storage
+10760,Operation,MTH002,-0.1,-0.1,0.8181611434096293,Northern America,Information and communication
+10760,Disposal ,Q.86.1.P,0.03242468,0.03242468,0.3052671976412105,Northern America,Education
+10764,Manufacturing,C.11.2.B,-0.1,-0.1,0.37849675007443684,Northern America,"Professional, scientific and technical activities"
+10764,Other,ENVIB010,-0.1,-0.1,0.39422165529438546,Northern America,Manufacturing
+10765,Operation,MTH002,-0.1,-0.1,0.5595714032768271,Northern America,Manufacturing
+10801,Operation,MTH002,-0.1,-0.1,0.6648216765684718,Western Europe,Information and communication
+10801,Operation,MTH002,-0.1,-0.1,0.442751998359306,Western Europe,Manufacturing
+10801,Transportation,M.70.4.P,0.0238978265,0.0238978265,0.3393576288899786,Western Europe,"Professional, scientific and technical activities"
