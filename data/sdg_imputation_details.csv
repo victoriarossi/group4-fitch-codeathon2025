@@ -1,0 +1,597 @@
+entity_id,predicted_sdg_id,confidence,region,industry
+37,16.0,0.41876311739533884,Western Europe,Accommodation And Food Service Activities
+58,8.0,0.7971609785289753,Western Europe,Accommodation And Food Service Activities
+58,8.0,0.7953220350224631,Western Europe,Accommodation And Food Service Activities
+58,8.0,1.0,Western Europe,Transportation And Storage
+58,8.0,1.0,Western Europe,Transportation And Storage
+60,12.0,0.8096923448156427,Western Europe,Manufacturing
+66,3.0,0.8170083670104302,Western Europe,Human Health And Social Work Activities
+66,9.0,0.43616428027701476,Western Europe,Information and communication
+87,9.0,0.6172836369725277,Western Europe,Information and communication
+90,3.0,0.7862558256520165,Western Europe,Manufacturing
+98,8.0,0.45434214134655476,Western Europe,Transportation And Storage
+102,2.0,0.4,Western Europe,Manufacturing
+1055,3.0,0.7781034190618625,Western Europe,Manufacturing
+1074,3.0,0.7941532834863873,Western Europe,Manufacturing
+1077,12.0,0.6300357212050579,Western Europe,"Professional, scientific and technical activities"
+1077,12.0,0.6300357212050579,Western Europe,"Professional, scientific and technical activities"
+1078,3.0,1.0,Northern America,Manufacturing
+1078,8.0,0.804322460396019,Northern America,Wholesale And Retail Trade
+1078,3.0,1.0,Northern America,Manufacturing
+1078,9.0,0.39823673354152,Northern America,Wholesale And Retail Trade
+1079,3.0,0.45210876191977034,Western Europe,Financial and insurance activities
+1091,3.0,0.6572549169650715,Western Europe,Financial and insurance activities
+1131,3.0,0.6159289895123373,Western Europe,Human Health And Social Work Activities
+1132,12.0,0.42517112552112485,Western Europe,Manufacturing
+1140,9.0,0.6519258990795169,Western Europe,Information and communication
+1157,9.0,0.3976802842953761,Western Europe,Wholesale And Retail Trade
+1160,3.0,0.647248838251203,Western Europe,"Professional, scientific and technical activities"
+1160,9.0,0.6169398497225822,Western Europe,Information and communication
+1162,16.0,0.4264770799615733,Western Europe,Information and communication
+1170,3.0,0.8275329582061139,Northern America,Manufacturing
+1170,3.0,0.8275329582061139,Northern America,Manufacturing
+1170,7.0,0.20345480425103538,Northern America,Wholesale And Retail Trade
+1171,3.0,0.8013198279797764,Western Europe,Manufacturing
+1171,3.0,0.8013198279797764,Western Europe,Manufacturing
+1171,3.0,0.7973436427439352,Western Europe,"Professional, scientific and technical activities"
+1179,3.0,1.0,Western Europe,Manufacturing
+1181,9.0,0.400756091896274,Western Europe,Wholesale And Retail Trade
+1195,12.0,0.7646109216637964,Western Europe,"Agriculture, Forestry And Fishing"
+1195,12.0,0.8179852805368423,Western Europe,"Professional, Scientific And Technical Activities"
+1195,12.0,1.0,Western Europe,Manufacturing
+1195,12.0,1.0,Western Europe,Manufacturing
+1195,12.0,0.8179852805368423,Western Europe,"Professional, Scientific And Technical Activities"
+1198,7.0,0.6945578442462451,Western Europe,Manufacturing
+1198,3.0,0.7903989979288841,Western Europe,Manufacturing
+1198,11.0,0.6,Western Europe,Manufacturing
+1204,3.0,0.7621148386492276,Western Europe,Manufacturing
+1204,3.0,0.7621148386492276,Western Europe,Manufacturing
+1205,2.0,0.39999999999999997,Western Europe,Manufacturing
+1208,3.0,0.757350221351072,Western Europe,"Professional, scientific and technical activities"
+1211,3.0,0.8148265585590202,Western Europe,Manufacturing
+1213,3.0,0.7520629356442314,Western Europe,Manufacturing
+1213,3.0,0.7520629356442314,Western Europe,Manufacturing
+1224,8.0,0.8116025078265058,Western Europe,Wholesale And Retail Trade
+1224,12.0,0.6875231339706154,Western Europe,"Professional, Scientific And Technical Activities"
+1225,12.0,0.6071618177401825,Western Europe,"Professional, Scientific And Technical Activities"
+1226,3.0,0.8055865446162113,Western Europe,Manufacturing
+1226,7.0,0.23292604529702265,Western Europe,Wholesale And Retail Trade
+1229,12.0,0.8411034852888951,Western Europe,Manufacturing
+1229,11.0,0.41098743761868206,Western Europe,Construction
+1238,12.0,0.8086252388249098,Northern America,"Professional, Scientific And Technical Activities"
+1238,12.0,0.8086252388249098,Northern America,"Professional, Scientific And Technical Activities"
+1238,12.0,0.8086252388249098,Northern America,"Professional, Scientific And Technical Activities"
+1239,9.0,0.5904152651373195,Western Europe,Transportation And Storage
+1242,3.0,1.0,Western Europe,Manufacturing
+1242,11.0,0.6000000000000001,Western Europe,Manufacturing
+1242,11.0,0.6000000000000001,Western Europe,Manufacturing
+1242,3.0,1.0,Western Europe,Manufacturing
+1242,12.0,0.42828376575175664,Western Europe,Manufacturing
+1242,12.0,0.42828376575175664,Western Europe,Manufacturing
+1243,12.0,0.6259177493647318,Western Europe,"Professional, Scientific And Technical Activities"
+1245,3.0,0.7707453022424681,Western Europe,Manufacturing
+1246,11.0,0.38108686863729,Western Europe,Manufacturing
+1246,3.0,0.3986644755671401,Western Europe,Manufacturing
+1248,9.0,0.4096409560277379,Western Europe,Information and communication
+1248,11.0,0.6,Western Europe,Manufacturing
+1248,3.0,0.5871769676170422,Western Europe,"Professional, scientific and technical activities"
+1248,3.0,0.8249481955257031,Western Europe,"Professional, scientific and technical activities"
+1248,9.0,0.8261196604490272,Western Europe,Information and communication
+1248,9.0,0.6463648122679926,Western Europe,Wholesale And Retail Trade
+1248,3.0,0.8154570372120671,Western Europe,Manufacturing
+1248,11.0,0.6,Western Europe,Manufacturing
+1248,3.0,0.8154570372120671,Western Europe,Manufacturing
+1248,11.0,0.6,Western Europe,Manufacturing
+1248,3.0,0.8154570372120671,Western Europe,Manufacturing
+1248,9.0,0.39963294282701395,Western Europe,Wholesale And Retail Trade
+1249,3.0,0.7373213800670153,Western Europe,Manufacturing
+1249,7.0,0.21453155979038907,Western Europe,Wholesale And Retail Trade
+1249,7.0,0.21453155979038907,Western Europe,Wholesale And Retail Trade
+1252,12.0,0.6101317281870131,Western Europe,Manufacturing
+1252,12.0,1.0,Western Europe,Manufacturing
+1262,9.0,0.5772710239066279,Western Europe,Information and communication
+1263,12.0,0.39811766031899243,Western Europe,Wholesale And Retail Trade
+1263,12.0,0.3987196758276622,Western Europe,Accommodation And Food Service Activities
+1264,7.0,0.4360052378090968,Western Europe,Manufacturing
+1264,7.0,0.4360052378090968,Western Europe,Manufacturing
+1267,12.0,0.3971313722667026,Northern America,Wholesale And Retail Trade
+1267,9.0,0.5980326731568826,Northern America,Accommodation And Food Service Activities
+1267,12.0,0.39214946139243945,Northern America,"Professional, Scientific And Technical Activities"
+1268,3.0,0.7764663725702892,Western Europe,Manufacturing
+1268,8.0,1.0,Western Europe,Wholesale And Retail Trade
+1268,8.0,1.0,Western Europe,Accommodation And Food Service Activities
+1268,3.0,1.0,Western Europe,"Arts, Sports And Recreation"
+1272,3.0,0.7863034116399248,Western Europe,Manufacturing
+1272,3.0,0.7824225610091281,Western Europe,Manufacturing
+1274,3.0,1.0,Western Europe,Manufacturing
+1276,2.0,0.5971363785746789,Northern America,Manufacturing
+1281,9.0,0.6152174626248385,Western Europe,Wholesale And Retail Trade
+1284,3.0,1.0,Western Europe,Manufacturing
+1284,7.0,0.4034975836775843,Western Europe,Manufacturing
+1289,9.0,0.6,Northern America,Manufacturing
+1296,3.0,0.6156940132176533,Western Europe,"Professional, scientific and technical activities"
+1296,12.0,0.6094713419828823,Western Europe,"Professional, scientific and technical activities"
+1301,12.0,0.7876217325952415,Western Europe,Manufacturing
+1302,7.0,0.5114158796507517,Western Europe,Manufacturing
+1302,7.0,0.5114158796507517,Western Europe,Manufacturing
+1302,3.0,0.5867778455460723,Western Europe,Manufacturing
+1302,3.0,0.5867778455460723,Western Europe,Manufacturing
+1312,3.0,0.8052295490322765,Western Europe,Manufacturing
+1312,3.0,0.8052295490322765,Western Europe,Manufacturing
+1314,2.0,0.4,Western Europe,Manufacturing
+1314,2.0,0.39999999999999997,Western Europe,Manufacturing
+1316,3.0,0.8103009098993211,Western Europe,Human Health And Social Work Activities
+1320,3.0,0.804200318418149,Western Europe,"Professional, Scientific And Technical Activities"
+1320,3.0,0.8454640159775629,Western Europe,Financial and insurance activities
+1320,3.0,1.0,Western Europe,Financial And Insurance Activities
+1327,2.0,0.4,Northern America,Manufacturing
+1331,8.0,0.4145170248619995,Northern America,Information and communication
+1337,3.0,0.8066226945579883,Western Europe,Manufacturing
+1337,3.0,0.8066226945579883,Western Europe,Manufacturing
+1343,3.0,0.5706643850306796,Western Europe,"Professional, Scientific And Technical Activities"
+1349,8.0,1.0,Western Europe,Transportation And Storage
+1358,12.0,0.8422240560002545,Western Europe,"Professional, scientific and technical activities"
+1363,3.0,0.7933814253370332,Northern America,Manufacturing
+1363,3.0,0.7933814253370332,Northern America,Manufacturing
+1366,9.0,0.3923559054937646,Western Europe,Construction
+1368,3.0,0.5752768919112627,Western Europe,"Professional, Scientific And Technical Activities"
+1368,3.0,0.6138325436193561,Western Europe,"Professional, scientific and technical activities"
+1375,16.0,0.42691858788908044,Western Europe,Accommodation And Food Service Activities
+1375,16.0,0.42340030033681547,Western Europe,Accommodation And Food Service Activities
+1378,9.0,0.7929009962978573,Western Europe,Information and communication
+1380,11.0,0.6,Western Europe,Manufacturing
+1380,11.0,0.6,Western Europe,Manufacturing
+1380,11.0,0.6000000000000001,Western Europe,Manufacturing
+1383,3.0,0.5770128717695229,Western Europe,Financial And Insurance Activities
+1383,11.0,0.6,Western Europe,"Agriculture, Forestry And Fishing"
+1400,16.0,0.4511515577028198,Western Europe,Information and communication
+1400,16.0,0.4511515577028198,Western Europe,Information and communication
+1400,16.0,0.45299557737835466,Western Europe,Information and communication
+1401,3.0,0.7909776842507639,Northern America,Manufacturing
+1406,3.0,0.796812137561627,Western Europe,Manufacturing
+1406,3.0,0.6058270088285793,Western Europe,Manufacturing
+1418,3.0,1.0,Northern America,Manufacturing
+1418,3.0,0.8143867225578739,Northern America,Manufacturing
+1419,12.0,0.5741680045331189,Western Europe,Human Health And Social Work Activities
+1419,3.0,0.6190386389956585,Western Europe,Human Health And Social Work Activities
+1425,3.0,0.8107107121995133,Western Europe,Human Health And Social Work Activities
+1432,7.0,0.22325556424025625,Western Europe,Wholesale And Retail Trade
+1437,9.0,0.3993686563394028,Western Europe,Financial and insurance activities
+1437,12.0,0.4988344473208339,Western Europe,"Professional, Scientific And Technical Activities"
+1443,3.0,0.6368505783439999,Western Europe,Financial and insurance activities
+1443,9.0,0.622477719850995,Western Europe,Information and communication
+1456,9.0,0.5919241030718231,Western Europe,Information and communication
+1456,3.0,1.0,Western Europe,Mining And Quarrying
+1456,3.0,1.0,Western Europe,Manufacturing
+1457,11.0,0.6076873884340869,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1457,11.0,0.6076873884340869,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+1467,9.0,0.41875022656256317,Western Europe,Information and communication
+1467,3.0,0.6016306143815251,Western Europe,Human Health And Social Work Activities
+1476,9.0,0.5716952420629123,Western Europe,Wholesale And Retail Trade
+1476,7.0,0.6187272815190848,Western Europe,Wholesale And Retail Trade
+1483,3.0,0.20229158151433707,Western Europe,Wholesale And Retail Trade
+1483,8.0,0.8187736129022595,Western Europe,Wholesale And Retail Trade
+1483,9.0,0.3980561655773435,Western Europe,Wholesale And Retail Trade
+1484,3.0,1.0,Northern America,Manufacturing
+1491,7.0,0.21000351659645622,Northern America,Wholesale And Retail Trade
+1493,3.0,0.4353789288859098,Northern America,Manufacturing
+1493,3.0,0.4353789288859098,Northern America,Manufacturing
+1493,3.0,0.4353789288859098,Northern America,Manufacturing
+1494,3.0,0.6227388397032019,Northern America,Human Health And Social Work Activities
+1504,3.0,0.7947141374069099,Western Europe,Manufacturing
+1511,3.0,0.8006513251081196,Western Europe,Manufacturing
+1553,3.0,0.6176592999965926,Western Europe,Human Health And Social Work Activities
+1557,12.0,0.693276100635183,Western Europe,"Professional, Scientific And Technical Activities"
+1557,8.0,0.8071825087516351,Western Europe,Wholesale And Retail Trade
+1557,12.0,0.7888391963810405,Western Europe,"Professional, Scientific And Technical Activities"
+1557,8.0,0.8201491844398928,Western Europe,Transportation And Storage
+1557,8.0,0.8170097355558334,Western Europe,Wholesale And Retail Trade
+1557,8.0,0.8465488817928069,Western Europe,Transportation And Storage
+1564,12.0,0.7887035709183358,Western Europe,"Professional, Scientific And Technical Activities"
+1588,7.0,0.4036329009933355,Western Europe,Transportation And Storage
+1589,3.0,0.8271238717331837,Western Europe,Manufacturing
+1609,9.0,0.39983493364854855,Western Europe,Wholesale And Retail Trade
+1615,3.0,0.38547262307897207,Western Europe,"Professional, Scientific And Technical Activities"
+1615,4.0,0.3647331869467447,Western Europe,Administrative And Support Service Activities
+1637,3.0,0.5918874765979204,Western Europe,"Professional, scientific and technical activities"
+1637,12.0,0.6070766200288489,Western Europe,"Professional, scientific and technical activities"
+1639,3.0,1.0,Western Europe,Human Health And Social Work Activities
+1644,3.0,1.0,Western Europe,Manufacturing
+1645,9.0,0.42916445929190755,Western Europe,Information and communication
+1647,3.0,0.4149314596644592,Northern America,Manufacturing
+1655,9.0,0.6087216140691107,Western Europe,Information and communication
+1655,9.0,0.6087216140691107,Western Europe,Information and communication
+1665,9.0,0.6081920214160065,Western Europe,Information and communication
+1665,3.0,0.6238093043206513,Western Europe,"Professional, scientific and technical activities"
+1665,9.0,1.0,Western Europe,Information and communication
+1665,12.0,0.7992904441652342,Western Europe,"Professional, scientific and technical activities"
+1672,9.0,0.558769466417238,Western Europe,Wholesale And Retail Trade
+1710,3.0,0.7883785051852275,Western Europe,Manufacturing
+1710,3.0,0.7883785051852275,Western Europe,Manufacturing
+1710,7.0,0.22299056285889687,Western Europe,Construction
+1710,3.0,0.7871100956858708,Western Europe,Manufacturing
+1710,7.0,0.23476498532891124,Western Europe,Construction
+1710,3.0,0.7871100956858708,Western Europe,Manufacturing
+1711,3.0,0.541132084216841,Western Europe,Manufacturing
+1711,3.0,0.7961912182603635,Western Europe,Manufacturing
+1711,3.0,0.7961912182603635,Western Europe,Manufacturing
+1711,3.0,0.541132084216841,Western Europe,Manufacturing
+1711,3.0,0.541132084216841,Western Europe,Manufacturing
+1711,3.0,0.7961912182603635,Western Europe,Manufacturing
+1747,3.0,0.8289233382950834,Northern America,Manufacturing
+1748,9.0,0.4169747322314812,Northern America,Accommodation And Food Service Activities
+1750,2.0,0.4,Northern America,Manufacturing
+1750,2.0,0.4,Northern America,Manufacturing
+1757,16.0,0.4195699722962104,Northern America,Information and communication
+1757,3.0,0.4091959776658302,Northern America,"Professional, scientific and technical activities"
+1757,16.0,0.4195699722962104,Northern America,Information and communication
+1768,9.0,0.41682181224638043,Northern America,Accommodation And Food Service Activities
+1776,3.0,0.8239820546876457,Western Europe,Manufacturing
+1776,3.0,0.8239820546876457,Western Europe,Manufacturing
+1777,9.0,0.608001853549387,Northern America,Manufacturing
+1777,9.0,0.4186733844760114,Northern America,Manufacturing
+1791,11.0,0.6,Western Europe,Manufacturing
+1791,11.0,0.6,Western Europe,Manufacturing
+1791,3.0,0.3969390124074433,Western Europe,Manufacturing
+1791,3.0,0.3969390124074433,Western Europe,Manufacturing
+1794,9.0,0.4493149378001273,Western Europe,Information and communication
+1796,3.0,0.3990937955030022,Northern America,Manufacturing
+1813,3.0,0.7932329661604072,Latin America,Manufacturing
+1824,3.0,0.5838915602855566,Western Europe,Manufacturing
+1824,3.0,0.39176770887468776,Western Europe,Manufacturing
+1827,3.0,0.812970159657482,Northern America,Human Health And Social Work Activities
+1843,3.0,0.5449536542558807,Northern America,Manufacturing
+1843,3.0,0.5449536542558807,Northern America,Manufacturing
+1843,3.0,0.5503737213459384,Northern America,Mining And Quarrying
+1843,3.0,0.5449536542558807,Northern America,Manufacturing
+1851,3.0,0.6114134124581257,Western Europe,Manufacturing
+1852,9.0,0.6161465495919535,Western Europe,Information and communication
+1852,9.0,0.6161465495919535,Western Europe,Information and communication
+1860,16.0,0.5044704664953851,Western Europe,Information and communication
+1860,3.0,0.5909314187924353,Western Europe,"Professional, scientific and technical activities"
+1866,3.0,0.3646819903183982,Western Europe,Financial And Insurance Activities
+1866,3.0,0.41718345514965516,Western Europe,Financial and insurance activities
+1869,3.0,0.782518135739835,Northern America,Manufacturing
+1925,3.0,0.4612711667183313,Northern America,Manufacturing
+1925,9.0,0.39983179211167014,Northern America,Information and communication
+1925,3.0,0.5914074113251422,Northern America,"Professional, scientific and technical activities"
+1926,7.0,0.40332006316125985,Western Europe,Manufacturing
+1929,3.0,0.4122887696578407,Northern America,Manufacturing
+1929,3.0,0.4122887696578407,Northern America,Manufacturing
+1929,3.0,0.4122887696578407,Northern America,Manufacturing
+1929,3.0,0.4122887696578407,Northern America,Manufacturing
+1929,3.0,0.4122887696578407,Northern America,Manufacturing
+1929,3.0,0.4122887696578407,Northern America,Manufacturing
+1939,8.0,0.40709557100224136,Northern America,Information and communication
+1954,3.0,0.7892586868299198,Northern America,Manufacturing
+1958,9.0,0.39965071808109026,Northern America,Construction
+1958,8.0,0.4128678164602453,Northern America,Information and communication
+1973,16.0,0.40157726210150574,Northern America,Accommodation And Food Service Activities
+1973,3.0,1.0,Northern America,Human Health And Social Work Activities
+1973,3.0,1.0,Northern America,Manufacturing
+1975,3.0,1.0,Northern America,Manufacturing
+2014,3.0,0.8103961990926856,Northern America,"Arts, Sports And Recreation"
+2014,9.0,1.0,Northern America,Information and communication
+2014,3.0,0.40699481222443884,Northern America,Manufacturing
+2026,9.0,0.43997605823439856,Northern America,Information and communication
+2030,3.0,0.8005187624172458,Northern America,Manufacturing
+2030,3.0,0.8005187624172458,Northern America,Manufacturing
+2051,3.0,1.0,Western Europe,Manufacturing
+2051,3.0,1.0,Western Europe,Manufacturing
+2066,3.0,1.0,Northern America,Manufacturing
+2066,3.0,0.37867383522611253,Northern America,"Professional, Scientific And Technical Activities"
+2066,3.0,1.0,Northern America,Manufacturing
+2066,3.0,1.0,Northern America,Manufacturing
+2066,3.0,1.0,Northern America,Manufacturing
+2066,3.0,1.0,Northern America,Manufacturing
+2066,8.0,0.8355159942566724,Northern America,Wholesale And Retail Trade
+2084,3.0,0.48257362994839087,Western Europe,Manufacturing
+2084,3.0,0.48257362994839087,Western Europe,Manufacturing
+2084,3.0,0.48257362994839087,Western Europe,Manufacturing
+2090,3.0,0.804579439375558,Northern America,Manufacturing
+2090,3.0,0.804579439375558,Northern America,Manufacturing
+2121,3.0,0.6213567456860356,Western Europe,Manufacturing
+2121,3.0,0.6213567456860356,Western Europe,Manufacturing
+2132,7.0,0.2179676912086668,Western Europe,Construction
+2132,16.0,0.4158438310747874,Western Europe,Information and communication
+2143,12.0,0.5792991891378281,Northern America,"Professional, Scientific And Technical Activities"
+2149,3.0,1.0,Western Europe,Manufacturing
+2165,3.0,0.7978251244500396,Northern America,Manufacturing
+2165,3.0,0.7978251244500396,Northern America,Manufacturing
+2165,3.0,0.7978251244500396,Northern America,Manufacturing
+2165,3.0,0.7978251244500396,Northern America,Manufacturing
+2169,9.0,0.4039012960359343,Northern America,Information and communication
+2193,3.0,0.7531175898709563,Northern America,"Electricity, Gas, Steam And Air Conditioning Supply"
+2216,3.0,1.0,Northern America,Manufacturing
+2254,3.0,0.43793689385751,Western Europe,Financial and insurance activities
+2279,8.0,0.824351337862607,Western Europe,Wholesale And Retail Trade
+2279,3.0,0.3977266283881021,Western Europe,"Professional, Scientific And Technical Activities"
+2285,16.0,0.5740826588779557,Western Europe,Information and communication
+2292,3.0,0.4220843228712395,Western Europe,Financial and insurance activities
+2306,3.0,0.6134316176732436,Western Europe,Financial and insurance activities
+2324,3.0,0.41046828401586816,Northern America,Financial and insurance activities
+2365,3.0,0.8146929594641785,Western Europe,Manufacturing
+2377,9.0,0.4130587943642401,Eastern Asia,Manufacturing
+2380,3.0,0.4060222956455393,Northern America,"Professional, scientific and technical activities"
+2380,9.0,0.20239696198772827,Northern America,Construction
+2380,12.0,0.5836854871194841,Northern America,"Professional, Scientific And Technical Activities"
+2416,11.0,0.6000000000000001,Northern America,Manufacturing
+2416,11.0,0.6000000000000001,Northern America,Manufacturing
+2465,3.0,1.0,Northern America,Manufacturing
+2465,11.0,0.6,Northern America,Manufacturing
+2509,3.0,0.4146425744007001,Northern America,"Professional, scientific and technical activities"
+2509,3.0,0.4146425744007001,Northern America,"Professional, scientific and technical activities"
+2509,16.0,0.4586297490887747,Northern America,Information and communication
+2545,3.0,0.526334019558316,Western Europe,Transportation And Storage
+2575,3.0,0.6093262225880116,Western Europe,"Professional, Scientific And Technical Activities"
+2581,8.0,0.8206159785500926,Northern America,Wholesale And Retail Trade
+2589,9.0,0.5290490117277623,Northern America,Information and communication
+2601,3.0,0.8215289100497009,Northern America,Manufacturing
+2605,3.0,0.8082243795833778,Northern America,Manufacturing
+2605,3.0,0.8082243795833778,Northern America,Manufacturing
+2627,3.0,1.0,Northern America,Manufacturing
+2633,3.0,0.5088541019543918,Northern America,"Professional, scientific and technical activities"
+2633,8.0,0.8012001944884155,Northern America,Wholesale And Retail Trade
+2677,3.0,0.8101268307768151,Northern America,Financial and insurance activities
+2690,11.0,0.4232565600818783,Western Europe,Manufacturing
+2693,3.0,0.6026618134021001,Northern America,Manufacturing
+2703,3.0,0.43572131256716506,Northern America,Financial and insurance activities
+2709,9.0,1.0,Northern America,Information and communication
+2709,9.0,1.0,Northern America,Information and communication
+2739,12.0,0.6063690088965946,Northern America,Manufacturing
+2774,2.0,0.4,Northern America,Manufacturing
+2774,2.0,0.4,Northern America,Manufacturing
+2774,12.0,0.37187974526413503,Northern America,Administrative And Support Service Activities
+2785,8.0,0.4019326805362587,Northern America,Information and communication
+2785,8.0,0.39757022996972335,Northern America,Information and communication
+2790,2.0,0.39474302718110105,Northern America,Wholesale And Retail Trade
+2790,2.0,0.39474302718110105,Northern America,Wholesale And Retail Trade
+2805,3.0,1.0,Northern America,Manufacturing
+2805,3.0,1.0,Northern America,Manufacturing
+2807,4.0,0.21018465353558147,Western Europe,"Professional, Scientific And Technical Activities"
+2807,8.0,0.40235877531033204,Western Europe,Transportation And Storage
+2827,3.0,0.40166184998892873,Northern America,"Professional, scientific and technical activities"
+2827,9.0,0.8051574663354454,Northern America,Wholesale And Retail Trade
+2827,9.0,0.5985660426517533,Northern America,Information and communication
+2862,3.0,0.5381174996363233,Northern America,Financial and insurance activities
+2862,9.0,0.5666486801263687,Northern America,Information and communication
+2862,9.0,0.5666486801263687,Northern America,Information and communication
+2865,3.0,0.6139335926413083,Northern America,Manufacturing
+2889,9.0,0.4051333492906414,Western Europe,Accommodation And Food Service Activities
+2897,3.0,0.8091175322161761,Northern America,Manufacturing
+2897,3.0,0.8091175322161761,Northern America,Manufacturing
+2901,3.0,0.3940035909650787,Northern America,Manufacturing
+2901,3.0,0.38096589628121685,Northern America,Manufacturing
+2918,3.0,0.7872292786770722,Northern America,Manufacturing
+2925,9.0,0.4060092962214415,Northern America,Financial and insurance activities
+2925,3.0,1.0,Northern America,Education
+2929,12.0,0.6155214563204364,Northern America,"Professional, scientific and technical activities"
+2944,12.0,0.6096768599047377,Northern America,"Professional, scientific and technical activities"
+2944,3.0,0.6259534326810766,Northern America,"Professional, scientific and technical activities"
+2953,3.0,1.0,Northern America,Manufacturing
+3003,12.0,0.810199269804188,Northern America,Administrative And Support Service Activities
+3035,2.0,0.3983353521819667,Northern America,Mining And Quarrying
+3035,2.0,0.4,Northern America,"Electricity, Gas, Steam And Air Conditioning Supply"
+3035,2.0,0.39839005441919,Northern America,Transportation And Storage
+3036,3.0,0.7808652495024268,Northern America,"Professional, scientific and technical activities"
+3036,3.0,0.7808652495024268,Northern America,"Professional, scientific and technical activities"
+3036,3.0,0.8017598412053512,Northern America,Manufacturing
+3048,3.0,0.4099981532711203,Western Europe,"Professional, Scientific And Technical Activities"
+3053,8.0,0.8253730744897047,Northern America,Wholesale And Retail Trade
+3053,8.0,0.8253730744897047,Northern America,Wholesale And Retail Trade
+3114,12.0,0.5692520424837337,Northern America,Manufacturing
+3114,6.0,0.21861838344866824,Northern America,Wholesale And Retail Trade
+3114,12.0,0.7822109924167213,Northern America,"Professional, Scientific And Technical Activities"
+3115,12.0,0.7953389200129967,Northern America,"Professional, Scientific And Technical Activities"
+3157,3.0,0.6145709954560505,Western Europe,Manufacturing
+3157,3.0,0.6067489479151325,Western Europe,Manufacturing
+3157,3.0,0.6067489479151325,Western Europe,Manufacturing
+3157,3.0,0.7566416142394247,Western Europe,Manufacturing
+3157,7.0,0.22809115664098162,Western Europe,Wholesale And Retail Trade
+3157,3.0,0.7566416142394247,Western Europe,Manufacturing
+3157,7.0,0.2199550285100854,Western Europe,Wholesale And Retail Trade
+3157,3.0,0.6145709954560505,Western Europe,Manufacturing
+3157,11.0,0.34081550499382557,Western Europe,Wholesale And Retail Trade
+3160,3.0,0.7824104754758338,Western Europe,Financial And Insurance Activities
+3160,3.0,0.6942250830334652,Western Europe,Education
+3160,3.0,0.6942250830334652,Western Europe,Education
+3160,3.0,0.6942250830334652,Western Europe,Education
+3173,3.0,0.3903532199171616,Western Europe,Human Health And Social Work Activities
+3179,3.0,0.6130541695752959,Western Europe,Information and communication
+3179,3.0,0.795561372818886,Western Europe,"Professional, Scientific And Technical Activities"
+3217,3.0,0.7987702583473885,Northern America,Manufacturing
+3232,3.0,0.7849293366166978,Western Europe,Manufacturing
+3232,8.0,0.3451230523392036,Western Europe,Wholesale And Retail Trade
+3232,3.0,0.7849293366166978,Western Europe,Manufacturing
+3236,8.0,0.4140164348214286,Northern America,Information and communication
+3289,9.0,0.7848485884760036,Western Europe,Information and communication
+3289,12.0,0.575200984283143,Western Europe,"Professional, Scientific And Technical Activities"
+3310,3.0,0.7952427962140913,Western Europe,"Professional, scientific and technical activities"
+3311,9.0,0.24444460008463584,Western Europe,Wholesale And Retail Trade
+3311,9.0,0.24444460008463584,Western Europe,Wholesale And Retail Trade
+3312,9.0,0.5771449657791826,Western Europe,Information and communication
+3313,9.0,0.3984229064415034,Western Europe,Information and communication
+3313,12.0,0.5949783131785358,Western Europe,"Professional, Scientific And Technical Activities"
+3313,9.0,0.4441085782768278,Western Europe,Information and communication
+3313,3.0,0.4185303865944361,Western Europe,"Professional, Scientific And Technical Activities"
+3337,11.0,0.6,Northern America,Manufacturing
+3337,3.0,1.0,Northern America,Manufacturing
+3337,3.0,0.7939033064594431,Northern America,Manufacturing
+3342,3.0,0.7881178616097658,Western Europe,Manufacturing
+3342,3.0,0.7881178616097658,Western Europe,Manufacturing
+3343,3.0,0.8395909803573569,Northern America,Manufacturing
+3345,3.0,0.8031199812713623,Northern America,Manufacturing
+3345,12.0,0.4014890054725547,Northern America,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+3345,3.0,0.20104075019101486,Northern America,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+3345,7.0,0.617018555870295,Northern America,Manufacturing
+3346,3.0,0.5896690186655607,Western Europe,Manufacturing
+3346,3.0,0.8138973847795996,Western Europe,Manufacturing
+3351,2.0,0.3984009464376296,Northern America,Wholesale And Retail Trade
+3356,3.0,0.7565822840640481,Northern America,Mining And Quarrying
+3377,8.0,0.41861809564547314,Northern America,Information and communication
+3387,9.0,0.865887556962444,Northern America,Accommodation And Food Service Activities
+3395,9.0,0.4007248117685728,Northern America,Transportation And Storage
+3395,9.0,0.4007248117685728,Northern America,Transportation And Storage
+3395,9.0,0.5890686032961703,Northern America,Information and communication
+3410,8.0,0.3869910817351001,Western Europe,Wholesale And Retail Trade
+3419,2.0,0.3983511959958571,Northern America,Wholesale And Retail Trade
+3419,2.0,0.39999999999999997,Northern America,"Electricity, Gas, Steam And Air Conditioning Supply"
+3419,2.0,0.3984712883930758,Northern America,Transportation And Storage
+3429,9.0,0.3942520275625231,Western Europe,Construction
+3435,9.0,0.41443763930391947,Northern America,Accommodation And Food Service Activities
+3438,3.0,0.5932742217764414,Northern America,Financial and insurance activities
+3438,9.0,0.8127843036561762,Northern America,Information and communication
+3468,3.0,0.7857422013915519,Northern America,Manufacturing
+3489,3.0,0.8106239712915356,Western Europe,Manufacturing
+3489,3.0,0.8106239712915356,Western Europe,Manufacturing
+3518,3.0,0.8000816397037258,Northern America,Manufacturing
+3518,3.0,0.8000816397037258,Northern America,Manufacturing
+3518,12.0,0.39357347404555876,Northern America,"Professional, Scientific And Technical Activities"
+3518,7.0,0.4027122035068468,Northern America,Manufacturing
+3518,3.0,0.7826646091723067,Northern America,"Professional, Scientific And Technical Activities"
+3518,7.0,0.4027122035068468,Northern America,Manufacturing
+3535,11.0,0.2132494406893127,Western Europe,Construction
+3535,11.0,0.21633243652226494,Western Europe,Construction
+3535,11.0,0.41169143587519197,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+3535,11.0,0.41534656658802965,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+3536,3.0,1.0,Northern America,"Agriculture, Forestry And Fishing"
+3539,8.0,0.39942511067837727,Western Europe,Information and communication
+3540,11.0,0.6,Western Europe,Manufacturing
+3540,11.0,0.6,Western Europe,Manufacturing
+3540,11.0,0.6,Western Europe,Manufacturing
+3540,11.0,0.6,Western Europe,Manufacturing
+3555,3.0,1.0,Northern America,Manufacturing
+3564,7.0,0.43883073919779564,Northern America,Manufacturing
+3564,7.0,0.43883073919779564,Northern America,Manufacturing
+3573,12.0,0.6092175687292918,Western Europe,"Professional, scientific and technical activities"
+3573,12.0,0.6510881982227572,Western Europe,"Professional, scientific and technical activities"
+3573,3.0,0.8026687753579245,Western Europe,Human Health And Social Work Activities
+3573,3.0,0.8220307246957878,Western Europe,Human Health And Social Work Activities
+3576,16.0,0.5432012101382898,Western Europe,Information and communication
+3576,16.0,0.5432012101382898,Western Europe,Information and communication
+3576,3.0,0.3852269116947219,Western Europe,"Professional, scientific and technical activities"
+3591,8.0,0.38865719268738,Northern America,Information and communication
+3591,9.0,0.4144841540450283,Northern America,Information and communication
+3592,2.0,0.38961848822399997,Northern America,"Agriculture, Forestry And Fishing"
+3592,3.0,0.6286933702728661,Northern America,Human Health And Social Work Activities
+3592,9.0,0.40765497362035763,Northern America,Accommodation And Food Service Activities
+3595,12.0,0.43333825858600855,Northern America,Manufacturing
+3601,3.0,1.0,Western Europe,Manufacturing
+3606,3.0,1.0,Western Europe,Manufacturing
+3606,3.0,1.0,Western Europe,Manufacturing
+3618,9.0,0.4299551461118921,Northern America,Accommodation And Food Service Activities
+3634,3.0,1.0,Northern America,Human Health And Social Work Activities
+3634,9.0,0.42767160381186203,Northern America,Accommodation And Food Service Activities
+3642,11.0,0.6,Northern America,Manufacturing
+3647,3.0,0.7935971377093187,Western Europe,Manufacturing
+3665,9.0,0.5730602671450128,Northern America,Information and communication
+3668,9.0,0.3948622047549545,Western Europe,Financial and insurance activities
+3668,12.0,0.33273609718269526,Western Europe,"Professional, Scientific And Technical Activities"
+3671,3.0,1.0,Western Europe,Human Health And Social Work Activities
+3671,9.0,0.5801385186239654,Western Europe,Information and communication
+3671,7.0,0.6538974867567862,Western Europe,Manufacturing
+3673,9.0,0.5838330685312805,Western Europe,Financial and insurance activities
+3673,9.0,1.0,Western Europe,Information and communication
+3689,9.0,0.3886231328657848,Northern America,Information and communication
+3689,9.0,0.3886231328657848,Northern America,Information and communication
+3723,2.0,0.39051383711232773,Western Europe,Wholesale And Retail Trade
+3725,3.0,0.7263159828956521,Western Europe,Manufacturing
+3753,3.0,0.5895059076505909,Western Europe,Information and communication
+3753,3.0,0.8053345617949449,Western Europe,"Professional, Scientific And Technical Activities"
+3789,7.0,0.4105270941741174,Northern America,Manufacturing
+3789,7.0,0.4105270941741174,Northern America,Manufacturing
+3789,3.0,1.0,Northern America,Manufacturing
+3789,3.0,1.0,Northern America,Manufacturing
+3800,3.0,0.8477070439907542,Western Europe,Financial and insurance activities
+3850,9.0,0.3928444097925448,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+3850,9.0,0.5168559947374357,Western Europe,Construction
+3850,9.0,0.5168559947374357,Western Europe,Construction
+3850,9.0,0.38224467259206013,Western Europe,Construction
+3850,9.0,0.39098765487215714,Western Europe,"Water Supply; Sewerage, Waste Management And Remediation Activities"
+3850,9.0,0.38224467259206013,Western Europe,Construction
+3916,3.0,0.6175850253168137,Western Europe,Manufacturing
+3916,3.0,0.7917161570586146,Western Europe,"Professional, scientific and technical activities"
+3918,3.0,0.4092573560234744,Northern America,Information and communication
+3918,3.0,0.6067070271191836,Northern America,"Professional, scientific and technical activities"
+3936,3.0,0.7943856995089368,Western Europe,"Professional, scientific and technical activities"
+3937,9.0,0.4626710886863861,Northern America,Information and communication
+3942,9.0,0.49062412336924344,Northern America,Information and communication
+3942,9.0,0.49062412336924344,Northern America,Information and communication
+3954,8.0,0.46012156210928534,Northern America,Information and communication
+3954,3.0,0.5596762912600461,Northern America,"Professional, Scientific And Technical Activities"
+3954,3.0,0.5596762912600461,Northern America,"Professional, Scientific And Technical Activities"
+3976,8.0,0.5286724274100845,Western Europe,Transportation And Storage
+3981,3.0,0.5126091107633985,Western Europe,Financial And Insurance Activities
+3981,3.0,0.5126091107633985,Western Europe,Financial And Insurance Activities
+3989,2.0,0.4,Northern America,Manufacturing
+3991,9.0,0.40814675568569925,Western Europe,Financial And Insurance Activities
+4030,8.0,0.4248504087784394,Northern America,Information and communication
+4037,3.0,0.6142480555518431,Western Europe,Manufacturing
+4049,3.0,0.5215704303912267,Northern America,Financial And Insurance Activities
+4049,8.0,0.39295031248908885,Northern America,Information and communication
+4049,9.0,0.3922471719432766,Northern America,Transportation And Storage
+4051,3.0,0.7788445272231281,Northern America,Manufacturing
+4051,8.0,0.8425761595056455,Northern America,Wholesale And Retail Trade
+4061,8.0,0.8152133623272755,Northern America,Transportation And Storage
+4061,9.0,0.40299681484279704,Northern America,Accommodation And Food Service Activities
+4061,3.0,0.42586545741637066,Northern America,"Professional, Scientific And Technical Activities"
+4061,3.0,0.42586545741637066,Northern America,"Professional, Scientific And Technical Activities"
+4075,3.0,0.8195336294230943,Western Europe,Financial And Insurance Activities
+4075,9.0,0.3934121038828507,Western Europe,Construction
+4075,8.0,0.8212193215188055,Western Europe,Transportation And Storage
+4075,8.0,0.8212193215188055,Western Europe,Transportation And Storage
+4092,2.0,0.3890990158521986,Western Europe,"Agriculture, Forestry And Fishing"
+4092,2.0,0.4,Western Europe,Manufacturing
+4098,9.0,0.612419922223915,Western Europe,Manufacturing
+4098,9.0,0.6161180196951447,Western Europe,Manufacturing
+4098,9.0,0.6214680256783821,Western Europe,Manufacturing
+4109,2.0,0.4,Western Europe,Manufacturing
+4109,2.0,0.3954016666523862,Western Europe,Wholesale And Retail Trade
+4131,9.0,0.6167931816250231,Western Europe,Wholesale And Retail Trade
+4134,9.0,0.4024123263198004,Western Europe,Wholesale And Retail Trade
+4146,9.0,0.39190777288948475,Western Europe,Construction
+4146,9.0,0.39190777288948475,Western Europe,Construction
+4155,7.0,0.2133033129986527,Western Europe,Construction
+4155,7.0,0.2133033129986527,Western Europe,Construction
+4155,12.0,0.3985524161336844,Western Europe,"Professional, Scientific And Technical Activities"
+4155,3.0,0.7684723434878612,Western Europe,"Professional, scientific and technical activities"
+4192,9.0,0.39358457110947737,Western Europe,Wholesale And Retail Trade
+4198,3.0,0.4156780552638697,Western Europe,"Professional, scientific and technical activities"
+4205,3.0,0.8183110454053001,Western Europe,Manufacturing
+4205,3.0,0.8183110454053001,Western Europe,Manufacturing
+4205,3.0,0.8183110454053001,Western Europe,Manufacturing
+4225,2.0,0.4,Western Europe,Manufacturing
+4233,9.0,0.7962282141305275,Western Europe,Financial and insurance activities
+10039,3.0,1.0,Western Europe,Human Health And Social Work Activities
+10054,2.0,0.4,Northern America,Manufacturing
+10054,2.0,0.4,Northern America,Manufacturing
+10054,2.0,0.4,Northern America,Manufacturing
+10054,2.0,0.4000310108844077,Northern America,Mining And Quarrying
+10061,3.0,1.0,Western Europe,Financial And Insurance Activities
+10100,9.0,0.4180902894559982,Western Europe,Information and communication
+10100,9.0,0.39749997853817703,Western Europe,Wholesale And Retail Trade
+10100,9.0,0.4180902894559982,Western Europe,Information and communication
+10184,3.0,0.6018938401575162,Western Europe,Manufacturing
+10213,12.0,0.8089015849371032,Northern America,Administrative And Support Service Activities
+10233,3.0,0.6341364198834093,Western Europe,Manufacturing
+10282,2.0,0.5947391348102491,Northern America,Manufacturing
+10282,2.0,0.4,Northern America,Manufacturing
+10286,12.0,0.8029818939232158,Western Europe,"Professional, Scientific And Technical Activities"
+10299,9.0,0.4216737550828332,Western Europe,Information and communication
+10299,9.0,1.0,Western Europe,Information and communication
+10314,12.0,0.39618316935450676,Western Europe,"Professional, Scientific And Technical Activities"
+10368,9.0,0.4081421587455739,Northern America,Information and communication
+10368,3.0,0.3780659985926602,Northern America,Manufacturing
+10372,9.0,0.42136197195097835,Western Europe,Information and communication
+10432,3.0,0.5928088032200531,Western Europe,Manufacturing
+10477,3.0,0.6080063770090469,Northern America,"Professional, scientific and technical activities"
+10477,3.0,0.6080063770090469,Northern America,"Professional, scientific and technical activities"
+10589,3.0,1.0,Western Europe,Manufacturing
+10600,3.0,0.41691562462673826,Northern America,Information and communication
+10695,8.0,0.8313003267736797,Northern America,Wholesale And Retail Trade
+10700,3.0,0.78819372570157,Western Europe,"Professional, scientific and technical activities"
+10702,3.0,0.7368471133429756,Western Europe,Manufacturing
+10765,7.0,0.8276577246334995,Northern America,Manufacturing
+10801,16.0,0.50909922440701,Western Europe,Information and communication
+10801,3.0,0.6153244537193026,Western Europe,Manufacturing
+10801,3.0,0.763190917390813,Western Europe,"Professional, scientific and technical activities"
