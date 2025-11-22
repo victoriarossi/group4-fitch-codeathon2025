@@ -1,0 +1,167 @@
+
+=== revenue ===
+Q1=794970000.0000, Q3=4110000000.0000, IQR=3315030000.0000
+IQR bounds: [-4177575000.0000, 9082545000.0000]
+Outlier count: 49
+Smallest 5 outliers:
+405    9.240000e+09
+218    9.300000e+09
+112    9.446500e+09
+188    9.850000e+09
+423    1.000000e+10
+Largest 5 outliers:
+120    4.980000e+10
+387    5.160000e+10
+425    5.510000e+10
+419    6.650000e+10
+331    1.540000e+11
+
+=== environmental_score ===
+Q1=3.0860, Q3=3.9000, IQR=0.8140
+IQR bounds: [1.8650, 5.1210]
+Outlier count: 8
+Smallest 5 outliers:
+61     1.000
+62     1.000
+212    1.000
+262    1.079
+291    1.100
+Largest 5 outliers:
+262    1.079
+291    1.100
+363    1.340
+160    1.479
+274    1.662
+
+=== social_score ===
+Q1=2.5000, Q3=3.0000, IQR=0.5000
+IQR bounds: [1.7500, 3.7500]
+Outlier count: 24
+Smallest 5 outliers:
+273    1.249
+380    1.655
+108    1.661
+214    1.670
+290    1.738
+Largest 5 outliers:
+337    4.9
+7      4.9
+257    5.0
+138    5.0
+318    5.0
+
+=== governance_score ===
+Q1=1.9760, Q3=2.8100, IQR=0.8340
+IQR bounds: [0.7250, 4.0610]
+Outlier count: 0
+
+=== revenue_log ===
+Q1=20.4938, Q3=22.1367, IQR=1.6429
+IQR bounds: [18.0295, 24.6010]
+Outlier count: 7
+Smallest 5 outliers:
+64     16.821936
+124    17.751621
+120    24.631281
+387    24.666788
+425    24.732416
+Largest 5 outliers:
+120    24.631281
+387    24.666788
+425    24.732416
+419    24.920468
+331    25.760218
+
+=== env_score_adjustment for Disposal  ===
+Q1=0.0099, Q3=0.0568, IQR=0.0468
+IQR bounds: [-0.0603, 0.1270]
+Outlier count: 4
+Smallest 5 outliers:
+217   -0.24250
+216   -0.20000
+186    0.23357
+184    0.25000
+Largest 5 outliers:
+217   -0.24250
+216   -0.20000
+186    0.23357
+184    0.25000
+
+=== env_score_adjustment for End-use ===
+Q1=-0.1000, Q3=0.0717, IQR=0.1717
+IQR bounds: [-0.3576, 0.3293]
+Outlier count: 1
+Smallest 5 outliers:
+292    0.5
+Largest 5 outliers:
+292    0.5
+
+=== env_score_adjustment for Farming ===
+Q1=-0.1846, Q3=-0.0773, IQR=0.1073
+IQR bounds: [-0.3455, 0.0836]
+Outlier count: 2
+Smallest 5 outliers:
+213   -0.433662
+10     0.097796
+Largest 5 outliers:
+213   -0.433662
+10     0.097796
+
+=== env_score_adjustment for Manufacturing ===
+Q1=-0.1542, Q3=0.0150, IQR=0.1692
+IQR bounds: [-0.4081, 0.2688]
+Outlier count: 2
+Smallest 5 outliers:
+340   -0.750000
+339   -0.433293
+Largest 5 outliers:
+340   -0.750000
+339   -0.433293
+
+=== env_score_adjustment for Operation ===
+Q1=-0.2500, Q3=-0.0904, IQR=0.1596
+IQR bounds: [-0.4894, 0.1489]
+Outlier count: 13
+Smallest 5 outliers:
+282   -1.50
+207   -1.00
+212   -1.00
+253   -1.00
+206   -0.75
+Largest 5 outliers:
+208   -0.500000
+336   -0.500000
+53    -0.492174
+278    0.153714
+52     0.226106
+
+=== env_score_adjustment for Other ===
+Q1=-0.1000, Q3=-0.1000, IQR=0.0000
+IQR bounds: [-0.1000, -0.1000]
+Outlier count: 23
+Smallest 5 outliers:
+334   -0.701412
+246   -0.691477
+323   -0.332965
+235   -0.300000
+317   -0.250000
+Largest 5 outliers:
+305   -0.085000
+226   -0.081191
+230   -0.064000
+275   -0.054978
+270   -0.036652
+
+=== env_score_adjustment for Raw materials ===
+Q1=-0.5000, Q3=-0.0483, IQR=0.4517
+IQR bounds: [-1.1775, 0.6292]
+Outlier count: 0
+
+=== env_score_adjustment for Transportation ===
+Q1=-0.0223, Q3=0.1375, IQR=0.1598
+IQR bounds: [-0.2619, 0.3772]
+Outlier count: 1
+Smallest 5 outliers:
+276   -0.6569
+Largest 5 outliers:
+276   -0.6569
