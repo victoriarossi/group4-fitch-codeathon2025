@@ -1,0 +1,90 @@
+No missing values detected in train.csv.
+
+No ESG columns required imputation.
+
+No ESG columns required imputation.
+
+Saved missing-before plot.
+
+Pivot complete. Shape: (478, 80)
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
+Pivot complete. Shape: (478, 80)
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
+  Component 1: 0.0227
+  Component 2: 0.0192
+  Component 3: 0.0185
+  Component 4: 0.0185
+  Component 5: 0.0184
+  Component 6: 0.0180
+  Component 7: 0.0173
+  Component 8: 0.0171
+  Component 9: 0.0168
+  Component 10: 0.0165
