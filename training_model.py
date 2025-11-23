@@ -1,14 +1,16 @@
 import pandas as pd
 import numpy as np
-
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import ElasticNet
 from xgboost import XGBRegressor
 from catboost import CatBoostRegressor
 from sklearn.decomposition import PCA
+import joblib
+import os
+
+os.makedirs("models", exist_ok=True)
 
 df = pd.read_csv("data/data_after_feature_extraction.csv")
 
@@ -51,6 +53,8 @@ base_features = train.drop(columns=drop_cols + targets, errors="ignore")
 feature_cols = base_features.select_dtypes(include=[np.number]).columns.tolist()
 
 metrics = []
+best_scope1 = None
+best_scope2 = None
 
 for target in targets:
     X_train = train[feature_cols]
@@ -154,7 +158,7 @@ rf_param_dist = {
     "max_depth": [None, 5, 10, 20],
     "min_samples_split": [2, 5, 10],
     "min_samples_leaf": [1, 2, 4],
-    "max_features": ["auto", "sqrt", 0.5],
+    "max_features": ["sqrt", "log2", 0.5, None],
 }
 
 xgb_param_dist = {
@@ -175,34 +179,35 @@ cat_param_dist = {
 en_param_dist = {
     "alpha": [0.001, 0.01, 0.1, 1.0, 10.0],
     "l1_ratio": [0.1, 0.3, 0.5, 0.7, 0.9],
+    "max_iter": [5000]
 }
 
 for t, phase_label in [
     ("target_scope_1_log", "tuned_scope1_phase10"),
     ("target_scope_2_log", "tuned_scope2_phase10"),
 ]:
-    tune_and_eval(
+    rf_best = tune_and_eval(
         "RandomForest",
         RandomForestRegressor(random_state=42),
         rf_param_dist,
         t,
         phase_label,
     )
-    tune_and_eval(
+    xgb_best = tune_and_eval(
         "XGBoost",
         XGBRegressor(objective="reg:squarederror", random_state=42),
         xgb_param_dist,
         t,
         phase_label,
     )
-    tune_and_eval(
+    cat_best = tune_and_eval(
         "CatBoost",
         CatBoostRegressor(loss_function="RMSE", random_seed=42, verbose=False),
         cat_param_dist,
         t,
         phase_label,
     )
-    tune_and_eval(
+    en_best = tune_and_eval(
         "ElasticNet",
         ElasticNet(),
         en_param_dist,
@@ -210,8 +215,17 @@ for t, phase_label in [
         phase_label,
     )
 
+    if t == "target_scope_1_log":
+        best_scope1 = cat_best
+    if t == "target_scope_2_log":
+        best_scope2 = en_best
+
+
 metrics_df = pd.DataFrame(metrics)
 metrics_df.to_csv("data/model_metrics.csv", index=False)
+
+joblib.dump(best_scope1, "models/best_scope1.joblib")
+joblib.dump(best_scope2, "models/best_scope2.joblib")
 
 print("Saved metrics to data/model_metrics.csv")
 print(metrics_df)
