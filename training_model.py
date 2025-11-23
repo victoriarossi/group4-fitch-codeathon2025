@@ -9,8 +9,14 @@ from catboost import CatBoostRegressor
 from sklearn.decomposition import PCA
 import joblib
 import os
+import sys
+import warnings
+warnings.filterwarnings('ignore')
 
 os.makedirs("models", exist_ok=True)
+
+log = open("model_training_log.txt", "w")
+sys.stdout = log
 
 df = pd.read_csv("data/data_after_feature_extraction.csv")
 
