@@ -226,6 +226,7 @@ metrics_df.to_csv("data/model_metrics.csv", index=False)
 
 joblib.dump(best_scope1, "models/best_scope1.joblib")
 joblib.dump(best_scope2, "models/best_scope2.joblib")
+joblib.dump(feature_cols, "models/feature_cols.joblib")
 
 print("Saved metrics to data/model_metrics.csv")
 print(metrics_df)
