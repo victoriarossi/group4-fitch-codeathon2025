@@ -35,3 +35,6 @@ traitlets==5.14.3
 typing_extensions==4.15.0
 tzdata==2025.2
 wcwidth==0.2.14
+seaborn==0.13.2
+catboost==2.1.0
+xgboost==2.1.0
