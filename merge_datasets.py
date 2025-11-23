@@ -13,20 +13,20 @@ def merge_after_outlier():
 
     merged.sort_values(by="entity_id", inplace=True)
 
+    # Remove rows that have missing columns region_id until target_scope_2
+    merged = merged[merged.loc[:, "region_code":"target_scope_2"].notnull().all(axis=1)]
+
     merged.to_csv("data/merged_dataset.csv", index=False)
     print("Merged dataset saved to data/merged_dataset.csv")
 
     print("Missing values per column in merged dataset:")
-    missing_counts = df1.isnull().sum()
+    missing_counts = merged.isnull().sum()
     for col, count in missing_counts.items():
         print(f"{col}: {count}")
 
 
 def merge_after_nan():
     df1 = pd.read_csv("data/merged_dataset.csv")
-
-    # Remove rows that have missing columns region_id until target_scope_2
-    df1 = df1[df1.loc[:, "region_code":"target_scope_2"].notnull().all(axis=1)]
 
     df2 = pd.read_csv("data/merged_dataset_imputed_activity.csv")
     df3 = pd.read_csv("data/merged_dataset_imputed_sdg.csv")
@@ -42,4 +42,10 @@ def merge_after_nan():
     df1.to_csv("data/merged_dataset_complete.csv", index=False)
     print("Cleaned merged dataset saved to data/merged_dataset_cleaned.csv")
 
-    
+    print("Missing values per column in merged dataset:")
+    missing_counts = df1.isnull().sum()
+    for col, count in missing_counts.items():
+        print(f"{col}: {count}")
+
+if __name__ == "__main__":
+    merge_after_outlier()

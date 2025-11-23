@@ -126,8 +126,8 @@ entity_id,predicted_sdg_id,confidence,region,industry
 1320,3.0,1.0,Western Europe,Financial And Insurance Activities
 1327,2.0,0.4,Northern America,Manufacturing
 1331,8.0,0.4145170248619995,Northern America,Information and communication
-1337,3.0,0.8066226945579883,Western Europe,Manufacturing
-1337,3.0,0.8066226945579883,Western Europe,Manufacturing
+1337,3.0,0.8066226945579884,Western Europe,Manufacturing
+1337,3.0,0.8066226945579884,Western Europe,Manufacturing
 1343,3.0,0.5706643850306796,Western Europe,"Professional, Scientific And Technical Activities"
 1349,8.0,1.0,Western Europe,Transportation And Storage
 1358,12.0,0.8422240560002545,Western Europe,"Professional, scientific and technical activities"
@@ -187,7 +187,7 @@ entity_id,predicted_sdg_id,confidence,region,industry
 1557,8.0,0.8201491844398928,Western Europe,Transportation And Storage
 1557,8.0,0.8170097355558334,Western Europe,Wholesale And Retail Trade
 1557,8.0,0.8465488817928069,Western Europe,Transportation And Storage
-1564,12.0,0.7887035709183358,Western Europe,"Professional, Scientific And Technical Activities"
+1564,12.0,0.788703570918336,Western Europe,"Professional, Scientific And Technical Activities"
 1588,7.0,0.4036329009933355,Western Europe,Transportation And Storage
 1589,3.0,0.8271238717331837,Western Europe,Manufacturing
 1609,9.0,0.39983493364854855,Western Europe,Wholesale And Retail Trade
@@ -342,8 +342,8 @@ entity_id,predicted_sdg_id,confidence,region,industry
 2774,2.0,0.4,Northern America,Manufacturing
 2774,2.0,0.4,Northern America,Manufacturing
 2774,12.0,0.37187974526413503,Northern America,Administrative And Support Service Activities
-2785,8.0,0.4019326805362587,Northern America,Information and communication
-2785,8.0,0.39757022996972335,Northern America,Information and communication
+2785,8.0,0.4019326805362588,Northern America,Information and communication
+2785,8.0,0.39757022996972324,Northern America,Information and communication
 2790,2.0,0.39474302718110105,Northern America,Wholesale And Retail Trade
 2790,2.0,0.39474302718110105,Northern America,Wholesale And Retail Trade
 2805,3.0,1.0,Northern America,Manufacturing
@@ -369,7 +369,7 @@ entity_id,predicted_sdg_id,confidence,region,industry
 2944,12.0,0.6096768599047377,Northern America,"Professional, scientific and technical activities"
 2944,3.0,0.6259534326810766,Northern America,"Professional, scientific and technical activities"
 2953,3.0,1.0,Northern America,Manufacturing
-3003,12.0,0.810199269804188,Northern America,Administrative And Support Service Activities
+3003,12.0,0.8101992698041881,Northern America,Administrative And Support Service Activities
 3035,2.0,0.3983353521819667,Northern America,Mining And Quarrying
 3035,2.0,0.4,Northern America,"Electricity, Gas, Steam And Air Conditioning Supply"
 3035,2.0,0.39839005441919,Northern America,Transportation And Storage
@@ -557,9 +557,9 @@ entity_id,predicted_sdg_id,confidence,region,industry
 4155,3.0,0.7684723434878612,Western Europe,"Professional, scientific and technical activities"
 4192,9.0,0.39358457110947737,Western Europe,Wholesale And Retail Trade
 4198,3.0,0.4156780552638697,Western Europe,"Professional, scientific and technical activities"
-4205,3.0,0.8183110454053001,Western Europe,Manufacturing
-4205,3.0,0.8183110454053001,Western Europe,Manufacturing
-4205,3.0,0.8183110454053001,Western Europe,Manufacturing
+4205,3.0,0.8183110454053,Western Europe,Manufacturing
+4205,3.0,0.8183110454053,Western Europe,Manufacturing
+4205,3.0,0.8183110454053,Western Europe,Manufacturing
 4225,2.0,0.4,Western Europe,Manufacturing
 4233,9.0,0.7962282141305275,Western Europe,Financial and insurance activities
 10039,3.0,1.0,Western Europe,Human Health And Social Work Activities

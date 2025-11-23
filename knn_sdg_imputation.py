@@ -6,6 +6,10 @@ from sklearn.model_selection import cross_val_score, StratifiedKFold
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import matplotlib.pyplot as plt
 import seaborn as sns
+import sys
+
+log = open("knn_sdg_imputation_log.txt", "w")
+sys.stdout = log
 
 # Load data
 print("Loading data...")
