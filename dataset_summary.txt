@@ -50,12 +50,12 @@ Skewness per column: revenue_pct   -0.182921
 dtype: float64
 
 Highly skewed columns (|skew| > 1): []
-   entity_id nace_level_1_code  ...                                  nace_level_2_name  revenue_pct
-0       1735                 A  ...  Crop and animal production, hunting and relate...     0.031105
-1       1195                 A  ...  Crop and animal production, hunting and relate...     0.362906
-2       4092                 A  ...  Crop and animal production, hunting and relate...     0.222190
-3       3592                 A  ...  Crop and animal production, hunting and relate...     0.063879
-4       3169                 A  ...  Crop and animal production, hunting and relate...     0.422810
+   entity_id  ... revenue_pct
+0       1735  ...    0.031105
+1       1195  ...    0.362906
+2       4092  ...    0.222190
+3       3592  ...    0.063879
+4       3169  ...    0.422810
 
 [5 rows x 6 columns]
 
@@ -117,11 +117,11 @@ environmental_score   -0.697604
 dtype: float64
 
 Highly skewed columns (|skew| > 1): ['target_scope_2', 'target_scope_1']
-   entity_id region_code       region_name  ... governance_score target_scope_1  target_scope_2
-0       1782         WEU    Western Europe  ...            2.833           60.0             0.0
-1       3918         NAM  Northern America  ...            2.143          265.0             0.0
-2      10299         WEU    Western Europe  ...            1.571         1136.0             0.0
-3       2324         NAM  Northern America  ...            2.429         1468.0             0.0
-4       1206         WEU    Western Europe  ...            2.000         1802.0             0.0
+   entity_id region_code  ... target_scope_1 target_scope_2
+0       1782         WEU  ...           60.0            0.0
+1       3918         NAM  ...          265.0            0.0
+2      10299         WEU  ...         1136.0            0.0
+3       2324         NAM  ...         1468.0            0.0
+4       1206         WEU  ...         1802.0            0.0
 
 [5 rows x 12 columns]
