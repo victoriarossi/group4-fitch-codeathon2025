@@ -14,17 +14,20 @@ Predict company-level Scope 1 and Scope 2 greenhouse gas emissions for holdout t
 │   ├── environmental_activities.csv
 │   ├── sustainable_development_goals.csv
 │   ├── merged_dataset_complete.csv
-│   ├── test_predictions.csv
+│   ├── test_predictions.csv (this is our final submission csv)
 │
 ├── models/
 │   ├── best_scope1.joblib
 │   ├── best_scope2.joblib
 │   ├── feature_cols.joblib
 │
-├── fitch_codeathon_pipeline.ipynb
+├── fitch_codeathon_pipeline.ipynb (this branch's main notebook)
 ├── SUBMISSION_README.md
 └── submission.csv
 ```
+## Submission files / datasets 
+-- fitch_codeathon_pipeline.ipynb
+-- data/test_predictions.csv
 
 ## Dataset Utilization
 
