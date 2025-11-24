@@ -11,40 +11,23 @@ dotenv.config();
 const app: Express = express();
 const port = process.env.PORT || 3001;
 
-// Middleware
-const allowedOrigins = [
-  'http://localhost:3000',
-  'http://127.0.0.1:3000',
-  'https://group4-fitch-codeathon2025.onrender.com',
-  process.env.FRONTEND_URL, // Add env variable for flexibility
-].filter(Boolean); // Remove undefined values
-
+// CORS configuration - MUST be first middleware
 app.use(cors({
-  origin: (origin, callback) => {
-    // Allow requests with no origin (like mobile apps, Postman, curl)
-    if (!origin) return callback(null, true);
-    
-    // Check if origin is in allowed list or matches *.onrender.com
-    if (allowedOrigins.includes(origin) || /\.onrender\.com$/.test(origin)) {
-      callback(null, true);
-    } else {
-      console.warn(`⚠️  Blocked CORS request from: ${origin}`);
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: '*', // Allow all origins for now to test
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  preflightContinue: false,
-  optionsSuccessStatus: 204,
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
+  exposedHeaders: ['Content-Length', 'Content-Type'],
+  maxAge: 86400, // 24 hours
 }));
 
-// Handle preflight requests explicitly
+// Handle preflight
 app.options('*', cors());
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Request logging
+// Request logging - AFTER CORS
 app.use((req: Request, _res: Response, next: NextFunction) => {
   console.log(`${req.method} ${req.path} - Origin: ${req.headers.origin || 'none'}`);
   next();
