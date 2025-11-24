@@ -1,5 +1,4 @@
 import express, { Express, Request, Response, NextFunction } from 'express';
-import cors from 'cors';
 import dotenv from 'dotenv';
 
 // Import routes
@@ -11,25 +10,21 @@ dotenv.config();
 const app: Express = express();
 const port = process.env.PORT || 3001;
 
-// CORS configuration - MUST be first middleware
-app.use(cors({
-  origin: '*', // Allow all origins for now to test
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
-  exposedHeaders: ['Content-Length', 'Content-Type'],
-  maxAge: 86400, // 24 hours
-}));
-
-// Handle preflight
-app.options('*', cors());
+// Disable CORS completely - allow everything
+app.use((_req: Request, res: Response, next: NextFunction) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', '*');
+  res.header('Access-Control-Allow-Headers', '*');
+  res.header('Access-Control-Allow-Credentials', 'true');
+  next();
+});
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Request logging - AFTER CORS
+// Request logging
 app.use((req: Request, _res: Response, next: NextFunction) => {
-  console.log(`${req.method} ${req.path} - Origin: ${req.headers.origin || 'none'}`);
+  console.log(`${req.method} ${req.path}`);
   next();
 });
 
