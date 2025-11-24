@@ -22,7 +22,24 @@ def merge_after_outlier():
     print("Missing values per column in merged dataset:")
     missing_counts = merged.isnull().sum()
     for col, count in missing_counts.items():
+        if count == 0:
+            continue
         print(f"{col}: {count}")
+    
+    print("Total number of rows:", merged['entity_id'].count())
+
+    missing_per_column = (
+    merged
+    .groupby("entity_id")
+    .apply(lambda g: g.isnull().any())
+    .sum()
+)
+
+    for col, count in missing_per_column.items():
+        print(f"{col}: {count}")
+
+
+
 
 
 def merge_after_nan():
