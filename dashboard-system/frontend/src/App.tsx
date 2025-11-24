@@ -7,11 +7,34 @@ import { HighEmittersStep } from "./components/narrative/HighEmittersStep";
 import { InterpretabilityStep } from "./components/narrative/InterpretabilityStep";
 import { PipelineSummaryStep } from "./components/narrative/PipelineSummaryStep";
 import { AIAssistantPage } from "./components/AIAssistantPage";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MessageSquare, BarChart3 } from "lucide-react";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<"dashboard" | "assistant">("dashboard");
+  const [backendReady, setBackendReady] = useState(false);
+
+  // Wake up backend on app load
+  useEffect(() => {
+    const wakeUpBackend = async () => {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+      try {
+        console.log('Waking up backend...');
+        await fetch(`${apiUrl}/health`, { 
+          method: 'GET',
+          signal: AbortSignal.timeout(30000) // 30 second timeout for cold start
+        });
+        console.log('Backend is awake');
+        setBackendReady(true);
+      } catch (error) {
+        console.warn('Backend wake-up failed (this is normal on first load):', error);
+        // Still set ready to true so user can try
+        setBackendReady(true);
+      }
+    };
+    
+    wakeUpBackend();
+  }, []);
 
   return (
     <div className="min-h-screen bg-[#FAFAFA]">
@@ -93,7 +116,19 @@ export default function App() {
           </footer>
         </>
       ) : (
-        <AIAssistantPage />
+        <>
+          {!backendReady ? (
+            <div className="max-w-[1320px] mx-auto px-8 py-32 flex flex-col items-center justify-center">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-8 h-8 border-4 border-[#3F4D64] border-t-transparent rounded-full animate-spin"></div>
+                <p className="text-lg text-[#3F4D64]">Connecting to backend...</p>
+              </div>
+              <p className="text-sm text-[#8B8F94]">Waking up the server (this may take up to 30 seconds)</p>
+            </div>
+          ) : (
+            <AIAssistantPage />
+          )}
+        </>
       )}
     </div>
   );
