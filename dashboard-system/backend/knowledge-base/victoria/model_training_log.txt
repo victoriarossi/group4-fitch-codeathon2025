@@ -1,0 +1,31 @@
+Train shape: (299, 56)
+Val shape: (65, 56)
+Test shape: (65, 56)
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Fitting 3 folds for each of 20 candidates, totalling 60 fits
+Saved metrics to data/model_metrics.csv
+                   phase              target  ... test_rmse   test_r2
+0       baseline_phase10  target_scope_1_log  ...  1.422284  0.482735
+1       baseline_phase10  target_scope_1_log  ...  1.322202  0.552971
+2       baseline_phase10  target_scope_1_log  ...  1.473768  0.444609
+3       baseline_phase10  target_scope_1_log  ...  1.421233  0.483499
+4       baseline_phase10  target_scope_2_log  ...  1.942255  0.366725
+5       baseline_phase10  target_scope_2_log  ...  2.016739  0.317223
+6       baseline_phase10  target_scope_2_log  ...  2.010125  0.321695
+7       baseline_phase10  target_scope_2_log  ...  1.868475  0.413924
+8   tuned_scope1_phase10  target_scope_1_log  ...  1.379335  0.513503
+9   tuned_scope1_phase10  target_scope_1_log  ...  1.392082  0.504470
+10  tuned_scope1_phase10  target_scope_1_log  ...  1.341459  0.539854
+11  tuned_scope1_phase10  target_scope_1_log  ...  1.420628  0.483939
+12  tuned_scope2_phase10  target_scope_2_log  ...  2.027038  0.310232
+13  tuned_scope2_phase10  target_scope_2_log  ...  1.895053  0.397132
+14  tuned_scope2_phase10  target_scope_2_log  ...  2.012936  0.319796
+15  tuned_scope2_phase10  target_scope_2_log  ...  1.849712  0.425635
+
+[16 rows x 9 columns]

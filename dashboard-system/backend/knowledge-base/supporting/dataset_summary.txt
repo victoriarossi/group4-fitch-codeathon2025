@@ -1,0 +1,127 @@
+Environmental Activities Dataset:
+Size: (355, 4)
+Missing values per column: entity_id               0
+activity_type           0
+activity_code           0
+env_score_adjustment    0
+dtype: int64
+Unique activity types: 8
+Unique activity code per type: activity_type
+Disposal          12
+End-use           15
+Farming            8
+Manufacturing     16
+Operation         21
+Other              3
+Raw materials     10
+Transportation     6
+Name: activity_code, dtype: int64
+Skewness per column: env_score_adjustment   -1.80609
+dtype: float64
+
+Highly skewed columns (|skew| > 1): ['env_score_adjustment']
+   entity_id   activity_type activity_code  env_score_adjustment
+0       2709  Transportation      M.70.4.P                  0.05
+1        107       Operation        MTH002                 -0.10
+2      10045       Operation        MTH002                 -0.10
+3       2709         End-use     J.58.16.B                 -0.05
+4       2677       Operation     J.58.20.P                  0.10
+
+--------------------------------------------------
+
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Revenue Distribution by Sector Dataset:
+Size: (799, 6)
+Missing values per column: entity_id            0
+nace_level_1_code    0
+nace_level_1_name    0
+nace_level_2_code    0
+nace_level_2_name    0
+revenue_pct          0
+dtype: int64
+Companies who didn't report 100% revenue: 21
+Unique level 1 sectors: 20
+Unique level 2 sectors: 79
+Skewness per column: revenue_pct   -0.182921
+dtype: float64
+
+Highly skewed columns (|skew| > 1): []
+   entity_id  ... revenue_pct
+0       1735  ...    0.031105
+1       1195  ...    0.362906
+2       4092  ...    0.222190
+3       3592  ...    0.063879
+4       3169  ...    0.422810
+
+[5 rows x 6 columns]
+
+--------------------------------------------------
+
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Sustainable Development Goals Dataset:
+Size: (165, 3)
+Missing values per column: entity_id    0
+sdg_id       0
+sdg_name     0
+dtype: int64
+Unique SDG codes: 12
+Average number of SDG entries per entity: 1.2692307692307692
+Company with most SDG entries: 1203 3
+Company with less SDG entries: 3148 1
+   entity_id  sdg_id                                 sdg_name
+0         29       9  Industry, Innovation and Infrastructure
+1         46      12   Responsible Consumption and Production
+2         46       7              Affordable and Clean Energy
+3         63       3                Good Health and Wellbeing
+4        106       9  Industry, Innovation and Infrastructure
+
+--------------------------------------------------
+
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+Train Dataset:
+Size: (429, 12)
+Missing values per column: entity_id              0
+region_code            0
+region_name            0
+country_code           0
+country_name           0
+revenue                0
+overall_score          0
+environmental_score    0
+social_score           0
+governance_score       0
+target_scope_1         0
+target_scope_2         0
+dtype: int64
+Unique regions: 7
+Unique countries: 28
+Target scope 1 range: 6.11 to 637605.0
+Target scope 2 range: 0.0 to 2061608.0
+Environmental_score range: 1.0 to 4.941
+Skewness per column:
+ target_scope_2         7.338086
+target_scope_1         3.153678
+environmental_score   -0.697604
+dtype: float64
+
+Highly skewed columns (|skew| > 1): ['target_scope_2', 'target_scope_1']
+   entity_id region_code  ... target_scope_1 target_scope_2
+0       1782         WEU  ...           60.0            0.0
+1       3918         NAM  ...          265.0            0.0
+2      10299         WEU  ...         1136.0            0.0
+3       2324         NAM  ...         1468.0            0.0
+4       1206         WEU  ...         1802.0            0.0
+
+[5 rows x 12 columns]

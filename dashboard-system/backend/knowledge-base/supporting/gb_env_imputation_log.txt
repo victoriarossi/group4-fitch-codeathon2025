@@ -1,0 +1,102 @@
+Loading data...
+
+Dataset shape: (997, 24)
+Missing activity_type: 337 rows
+Known activity_type: 660 rows
+
+Activity type distribution in known data:
+activity_type
+Operation         243
+Other              90
+End-use            84
+Manufacturing      81
+Raw materials      65
+Farming            44
+Disposal           31
+Transportation     22
+Name: count, dtype: int64
+
+================================================================================
+CREATING ACTIVITY MAPPINGS
+================================================================================
+  Disposal : code=Q.86.1.P, env_adj=0.0324
+  End-use: code=C.14.34.P, env_adj=-0.0145
+  Farming: code=A.1.4.B, env_adj=-0.0735
+  Manufacturing: code=C.11.2.B, env_adj=-0.1000
+  Operation: code=MTH002, env_adj=-0.1000
+  Other: code=ENVIB010, env_adj=-0.1000
+  Raw materials: code=C.22.34.B, env_adj=-0.2400
+  Transportation: code=M.70.4.P, env_adj=0.0239
+
+================================================================================
+FEATURE PREPROCESSING
+================================================================================
+Features used (16): ['revenue_log', 'overall_score', 'environmental_score', 'social_score', 'governance_score', 'target_scope_1', 'target_scope_2', 'revenue_pct', 'scope_ratio', 'scope_total', 'env_gov_ratio', 'score_variance', 'region_code', 'nace_level_1_code', 'nace_level_2_code', 'country_code']
+
+================================================================================
+GRADIENT BOOSTING TRAINING
+================================================================================
+Cross-validation accuracy: 0.5303 (+/- 0.0498)
+Test set accuracy: 0.5455
+
+Classification Report:
+                precision    recall  f1-score   support
+
+     Disposal        0.50      0.67      0.57         6
+       End-use       0.52      0.65      0.58        17
+       Farming       0.75      0.67      0.71         9
+ Manufacturing       0.29      0.25      0.27        16
+     Operation       0.59      0.69      0.64        49
+         Other       0.54      0.39      0.45        18
+ Raw materials       0.57      0.31      0.40        13
+Transportation       0.67      0.50      0.57         4
+
+      accuracy                           0.55       132
+     macro avg       0.55      0.52      0.52       132
+  weighted avg       0.54      0.55      0.54       132
+
+
+Top 10 Feature Importances:
+            feature  importance
+environmental_score    0.127747
+        revenue_log    0.117994
+     score_variance    0.107585
+     target_scope_1    0.090933
+        scope_ratio    0.073311
+   governance_score    0.072820
+      overall_score    0.072636
+       social_score    0.070422
+      env_gov_ratio    0.050681
+     target_scope_2    0.049474
+
+================================================================================
+FINAL IMPUTATION
+================================================================================
+
+Imputed 337 values
+
+Predicted distribution:
+  Disposal :   8 (2.4%)
+  End-use:  17 (5.0%)
+  Farming:   3 (0.9%)
+  Manufacturing:   7 (2.1%)
+  Operation: 226 (67.1%)
+  Other:  71 (21.1%)
+  Raw materials:   5 (1.5%)
+
+Saved to: data/merged_dataset_imputed_activity.csv
+
+================================================================================
+IMPUTATION QUALITY DIAGNOSTICS
+================================================================================
+
+✓ Model: Gradient Boosting (150 trees, max_depth=5)
+✓ Cross-validation accuracy: 0.5303
+✓ Test set accuracy: 0.5455
+✓ Mean imputation confidence: 0.8214
+✓ High confidence (>70%): 247/337
+✓ High confidence (>50%): 315/337
+
+================================================================================
+COMPLETE!
+================================================================================
