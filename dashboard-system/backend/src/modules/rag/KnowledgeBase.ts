@@ -79,112 +79,55 @@ export class KnowledgeBase {
     let docId = 1000; // Start Victoria's IDs at 1000
 
     try {
-      // 1. Load Victoria's notebook with memory-safe parsing
-      const notebookPath = path.join(basePath, 'fitch_codeathon_pipeline.ipynb');
-      if (fs.existsSync(notebookPath)) {
-        // Check file size first to avoid OOM
-        const stats = fs.statSync(notebookPath);
-        const fileSizeMB = stats.size / (1024 * 1024);
+      // 1. Load Victoria's pipeline documentation (converted from notebook to avoid JSON parsing OOM)
+      const pipelineMdPath = path.join(basePath, 'pipeline_documentation.md');
+      if (fs.existsSync(pipelineMdPath)) {
+        const content = fs.readFileSync(pipelineMdPath, 'utf-8');
         
-        if (fileSizeMB > 50) {
-          console.warn(`⚠️  Notebook file is large (${fileSizeMB.toFixed(2)}MB), skipping to avoid OOM`);
-        } else {
-          try {
-            // Read file in chunks to avoid OOM on large files
-            const notebookContent = fs.readFileSync(notebookPath, 'utf-8');
-            
-            // Use streaming JSON parse with try-catch
-            let notebook: any;
-            try {
-              notebook = JSON.parse(notebookContent);
-            } catch (parseError) {
-              console.warn('Failed to parse notebook JSON, extracting markdown manually:', parseError);
-              // Fallback: extract markdown cells using regex (memory efficient)
-              const markdownMatches = notebookContent.matchAll(/"cell_type":\s*"markdown"[\s\S]*?"source":\s*(\[[\s\S]*?\])/g);
-              const sections: Array<{ title: string; content: string }> = [];
-              
-              for (const match of markdownMatches) {
-                try {
-                  const sourceArray = JSON.parse(match[1]);
-                  const text = Array.isArray(sourceArray) ? sourceArray.join('') : sourceArray;
-                  if (text.startsWith('# ') || text.startsWith('## ')) {
-                    const title = text.replace(/^#+\s*/, '').split('\n')[0].trim();
-                    sections.push({ title, content: text });
-                  }
-                } catch (e) {
-                  // Skip malformed cells
-                  continue;
-                }
-              }
-              
-              // Convert fallback sections to documents
-              for (const section of sections) {
-                docs.push({
-                  id: docId++,
-                  title: `Victoria's Notebook: ${section.title}`,
-                  content: section.content,
-                  docType: this.categorizeSection(section.title),
-                  source: 'fitch_codeathon_pipeline.ipynb',
-                  contributor: 'Victoria'
-                });
-              }
-              
-              // Return early after fallback processing
-              return docs;
-            }
-
-            // Normal processing if JSON.parse succeeded
-            const markdownCells = notebook.cells?.filter((cell: any) => 
-              cell.cell_type === 'markdown'
-            ) || [];
-
-            // Group cells into logical sections
-            let currentSection: { title: string; content: string[] } | null = null;
-            const sections: Array<{ title: string; content: string }> = [];
-
-            for (const cell of markdownCells) {
-              const text = Array.isArray(cell.source) ? cell.source.join('') : cell.source;
-              
-              // Check if this is a heading (section start)
-              if (text.startsWith('# ') || text.startsWith('## ')) {
-                // Save previous section
-                if (currentSection && currentSection.content.length > 0) {
-                  sections.push({
-                    title: currentSection.title,
-                    content: currentSection.content.join('\n\n')
-                  });
-                }
-                
-                // Start new section
-                const title = text.replace(/^#+\s*/, '').split('\n')[0].trim();
-                currentSection = { title, content: [text] };
-              } else if (currentSection) {
-                // Add to current section
-                currentSection.content.push(text);
-              }
-            }
-
-            // Add last section
+        // Split by markdown headers to create sections
+        const sections: Array<{ title: string; content: string }> = [];
+        const lines = content.split('\n');
+        let currentSection: { title: string; content: string[] } | null = null;
+        
+        for (const line of lines) {
+          // Check if this is a heading (section start)
+          if (line.startsWith('# ') || line.startsWith('## ')) {
+            // Save previous section
             if (currentSection && currentSection.content.length > 0) {
               sections.push({
                 title: currentSection.title,
-                content: currentSection.content.join('\n\n')
+                content: currentSection.content.join('\n').trim()
               });
             }
-
-            // Convert sections to documents
-            for (const section of sections) {
-              docs.push({
-                id: docId++,
-                title: `Victoria's Notebook: ${section.title}`,
-                content: section.content,
-                docType: this.categorizeSection(section.title),
-                source: 'fitch_codeathon_pipeline.ipynb',
-                contributor: 'Victoria'
-              });
-            }
-          } catch (readError) {
-            console.warn('Error reading notebook file:', readError);
+            
+            // Start new section
+            const title = line.replace(/^#+\s*/, '').trim();
+            currentSection = { title, content: [line] };
+          } else if (currentSection) {
+            // Add to current section
+            currentSection.content.push(line);
+          }
+        }
+        
+        // Add last section
+        if (currentSection && currentSection.content.length > 0) {
+          sections.push({
+            title: currentSection.title,
+            content: currentSection.content.join('\n').trim()
+          });
+        }
+        
+        // Convert sections to documents (skip very short sections)
+        for (const section of sections) {
+          if (section.content.length > 20) {
+            docs.push({
+              id: docId++,
+              title: `Victoria's Pipeline: ${section.title}`,
+              content: section.content,
+              docType: this.categorizeSection(section.title),
+              source: 'pipeline_documentation.md',
+              contributor: 'Victoria'
+            });
           }
         }
       }
