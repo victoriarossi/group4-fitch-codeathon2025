@@ -311,11 +311,12 @@ Training dataset metrics (log-transformed targets):
 
 The Aether AI Assistant is an adaptive, context-aware explainer bot built to help users understand every step of our emissions-prediction pipeline. Instead of giving generic answers, the assistant is grounded in our actual project artifacts—feature engineering logs, imputation diagnostics, model performance metrics, and dataset summaries—allowing it to provide explanations that are accurate, specific, and reproducible.
 The assistant supports three expertise levels:
-    •    Beginner:
+- Beginner:
 Simplified, analogy-driven explanations for students or non-technical users.
-    •    Intermediate:
+- Intermediate:
 Clear, moderately detailed breakdowns suitable for analysts and early-career engineers.
-    •    Advanced:
+- Advanced:
 Deep technical insights covering model choices, hyperparameters, confidence metrics, distribution behavior, and statistical reasoning.
 Users can ask questions about our data sources, imputations, modeling steps, visualizations, or predictions, and the assistant will generate responses matched to their chosen level of understanding.
+
 This transforms Aether from a static dashboard into a guided, interactive learning experience—making complex ML pipelines transparent, trustworthy, and accessible to all users.
