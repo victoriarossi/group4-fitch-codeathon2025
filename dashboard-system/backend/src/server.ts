@@ -12,14 +12,29 @@ const app: Express = express();
 const port = process.env.PORT || 3001;
 
 // Middleware
+const allowedOrigins = [
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
+  'https://group4-fitch-codeathon2025.onrender.com',
+  process.env.FRONTEND_URL, // Add env variable for flexibility
+].filter(Boolean); // Remove undefined values
+
 app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-    'https://group4-fitch-codeathon2025.onrender.com',
-    /\.onrender\.com$/ // Allow all *.onrender.com subdomains
-  ],
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps, Postman, curl)
+    if (!origin) return callback(null, true);
+    
+    // Check if origin is in allowed list or matches *.onrender.com
+    if (allowedOrigins.includes(origin) || /\.onrender\.com$/.test(origin)) {
+      callback(null, true);
+    } else {
+      console.warn(`⚠️  Blocked CORS request from: ${origin}`);
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
