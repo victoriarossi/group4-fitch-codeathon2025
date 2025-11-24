@@ -10,21 +10,22 @@ dotenv.config();
 const app: Express = express();
 const port = process.env.PORT || 3001;
 
+// Handle OPTIONS preflight requests FIRST - before any middleware
+app.options('*', (_req: Request, res: Response) => {
+  res.header('Access-Control-Allow-Origin', 'https://group4-fitch-codeathon2025.onrender.com/');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Accept');
+  res.header('Access-Control-Max-Age', '86400');
+  res.status(204).send();
+});
+
 // Disable CORS completely - allow everything
 app.use((_req: Request, res: Response, next: NextFunction) => {
-  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Origin', 'https://group4-fitch-codeathon2025.onrender.com/');
   res.header('Access-Control-Allow-Methods', '*');
   res.header('Access-Control-Allow-Headers', '*');
   res.header('Access-Control-Allow-Credentials', 'true');
   next();
-});
-
-// Handle OPTIONS preflight requests
-app.options('*', (_req: Request, res: Response) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', '*');
-  res.header('Access-Control-Allow-Headers', '*');
-  res.status(200).send();
 });
 
 app.use(express.json());
