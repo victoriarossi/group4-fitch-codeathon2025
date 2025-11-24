@@ -19,6 +19,14 @@ app.use((_req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
+// Handle OPTIONS preflight requests
+app.options('*', (_req: Request, res: Response) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', '*');
+  res.header('Access-Control-Allow-Headers', '*');
+  res.status(200).send();
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
