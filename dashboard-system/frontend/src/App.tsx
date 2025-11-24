@@ -29,7 +29,7 @@ export default function App() {
                 FitchGroup Emissions Modeling Dashboard
               </h1>
               <p className="text-[#8B8F94] max-w-3xl">
-                A step-by-step journey through our Scope 1 & Scope 2 prediction pipeline—from raw data to actionable insights.
+                A step-by-step journey through our Scope 1 & Scope 2 prediction pipeline from raw data to actionable insights.
               </p>
             </div>
 

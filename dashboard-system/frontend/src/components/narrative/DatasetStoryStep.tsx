@@ -40,12 +40,12 @@ export function DatasetStoryStep({ stepNumber }: DatasetStoryStepProps) {
       />
 
       {/* Data Stats Grid */}
-      <div className="grid grid-cols-4 gap-6 mb-8">
+      <div className="grid grid-cols-4 gap-6 mb-8 [&>*:nth-last-child(-n+3)]:col-start-auto [&>*:nth-child(9)]:col-start-2">
         {dataStats.map((stat, idx) => (
           <GlassCard
             key={idx}
             variant="micro"
-            className="p-6 cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-[0_2px_12px_rgba(63,77,100,0.12)] relative"
+            className="p-6 cursor-pointer transition-all duration-200 hover:scale-[1.02] hover:shadow-[0_2px_12px_rgba(63,77,100,0.12)] relative w-full"
             onMouseEnter={() => setHoveredStat(stat.label)}
             onMouseLeave={() => setHoveredStat(null)}
           >
@@ -62,30 +62,6 @@ export function DatasetStoryStep({ stepNumber }: DatasetStoryStepProps) {
           </GlassCard>
         ))}
       </div>
-
-      {/* Progression Visualization */}
-      <GlassCard variant="secondary" className="p-8">
-        <div className="text-[#1A1A1A] mb-2">Data Hierarchy Flow</div>
-        <div className="text-sm text-[#8B8F94] mb-8">
-          From geographic regions to granular SDG disclosures
-        </div>
-
-        <div className="flex items-center justify-between">
-          {progressionSteps.map((step, idx) => (
-            <div key={idx} className="flex items-center">
-              <div className="flex flex-col items-center">
-                <div className="w-16 h-16 rounded-full bg-[#3F4D64]/10 border-2 border-[#3F4D64]/30 flex items-center justify-center mb-3 transition-all duration-200 hover:bg-[#3F4D64]/20 hover:scale-110">
-                  <div className="text-xl text-[#3F4D64]">{step.value}</div>
-                </div>
-                <div className="text-sm text-[#1A1A1A]">{step.label}</div>
-              </div>
-              {idx < progressionSteps.length - 1 && (
-                <div className="w-24 h-[2px] bg-gradient-to-r from-[#3F4D64]/30 to-[#3F4D64]/10 mx-4"></div>
-              )}
-            </div>
-          ))}
-        </div>
-      </GlassCard>
     </section>
   );
 }

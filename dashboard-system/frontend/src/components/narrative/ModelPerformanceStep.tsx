@@ -85,22 +85,7 @@ export function ModelPerformanceStep({ stepNumber }: ModelPerformanceStepProps) 
               <div className="text-sm text-[#8B8F94]">RMSE = 1.339</div>
             </div>
           </div>
-
-          {/* Sparkline trajectory */}
-          <div className="pt-4 border-t border-[#E8EAED]">
-            <div className="text-xs text-[#8B8F94] mb-3">R² Trajectory</div>
-            <ResponsiveContainer width="100%" height={60}>
-              <LineChart data={scope1Trajectory}>
-                <Line
-                  type="monotone"
-                  dataKey="r2"
-                  stroke="#3B82F6"
-                  strokeWidth={3}
-                  dot={{ fill: '#3B82F6', r: 5 }}
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          </div>
+          
         </GlassCard>
 
         {/* Scope 2 Card */}
@@ -134,22 +119,6 @@ export function ModelPerformanceStep({ stepNumber }: ModelPerformanceStepProps) 
               <div className="text-xl text-[#1A1A1A] mb-1">R² = 0.426</div>
               <div className="text-sm text-[#8B8F94]">RMSE = 1.851</div>
             </div>
-          </div>
-
-          {/* Sparkline trajectory */}
-          <div className="pt-4 border-t border-[#E8EAED]">
-            <div className="text-xs text-[#8B8F94] mb-3">R² Trajectory</div>
-            <ResponsiveContainer width="100%" height={60}>
-              <LineChart data={scope2Trajectory}>
-                <Line
-                  type="monotone"
-                  dataKey="r2"
-                  stroke="#EC4899"
-                  strokeWidth={3}
-                  dot={{ fill: '#EC4899', r: 5 }}
-                />
-              </LineChart>
-            </ResponsiveContainer>
           </div>
         </GlassCard>
       </div>

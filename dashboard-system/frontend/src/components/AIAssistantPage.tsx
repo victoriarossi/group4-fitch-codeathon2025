@@ -117,9 +117,6 @@ export function AIAssistantPage() {
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-4">
-            <button className="p-2 rounded-full bg-white/60 backdrop-blur-[12px] border border-white/30 hover:bg-white/80 transition-all">
-              <ArrowLeft className="w-5 h-5 text-[#3F4D64]" />
-            </button>
             <div>
               <h1 className="text-[#1A1A1A] text-2xl">Emissions Modeling Assistant</h1>
               <p className="text-[#8B8F94] text-sm">Powered by AI • Tailored to your expertise level</p>
