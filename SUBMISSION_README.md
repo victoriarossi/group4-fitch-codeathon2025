@@ -43,7 +43,7 @@ Predict company-level Scope 1 and Scope 2 greenhouse gas emissions for holdout t
 - fitch_codeathon_pipeline.ipynb
 - notebooks/submission.csv
 - [Fitch Codeathon — Story-Board — Mockups](https://www.figma.com/board/Givm2xSRBl1068IgvyJ7NY/Fitch-Codeathon---Story-Board---Mockups?node-id=0-1&t=dCK0V63sEYWrmCAY-1)
-- Devpost: (TODO: Yamaan if anything remains)
+- Video: (TODO: add)
 
 
 ## Dataset Utilization
@@ -81,7 +81,7 @@ Conducted analysis across all datasets to understand structural characteristics,
    - Sustainable Development Goals: approximately 40% of unique training entities have no SDG commitments recorded
    - Analysis counts unique entities with ANY missing values in these columns (not total missing rows), providing accurate assessment of affected companies
    - Missing data is not random (MNAR): smaller companies and those in service sectors are disproportionately affected, making this the most difficult type of missing data to handle
-   - Simple deletion would lose 30-40% of unique entities from training data; mean imputation would introduce systematic bias
+   - Simple deletion would lose 33-59% of unique entities from training data; mean imputation would introduce systematic bias
 
 2. **High Dimensionality in Sector Data**:
    - Revenue distribution spans 200+ unique NACE Level 2 sector codes
