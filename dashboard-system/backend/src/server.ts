@@ -13,7 +13,12 @@ const port = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+  origin: [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://group4-fitch-codeathon2025.onrender.com',
+    /\.onrender\.com$/ // Allow all *.onrender.com subdomains
+  ],
   credentials: true,
 }));
 app.use(express.json());
