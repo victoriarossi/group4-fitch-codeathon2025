@@ -79,9 +79,10 @@ export class KnowledgeBase {
     let docId = 1000; // Start Victoria's IDs at 1000
 
     try {
-      // 1. Load Victoria's pipeline documentation (converted from notebook to avoid JSON parsing OOM)
+      // 1. Load Victoria's pipeline documentation (markdown format - NO JSON parsing to avoid OOM)
       const pipelineMdPath = path.join(basePath, 'pipeline_documentation.md');
       if (fs.existsSync(pipelineMdPath)) {
+        console.log('  ℹ️  Loading pipeline from markdown (memory-safe)');
         const content = fs.readFileSync(pipelineMdPath, 'utf-8');
         
         // Split by markdown headers to create sections
@@ -130,6 +131,10 @@ export class KnowledgeBase {
             });
           }
         }
+        console.log(`  ✓ Loaded ${sections.length} pipeline sections from markdown`);
+      } else {
+        console.warn('  ⚠️  pipeline_documentation.md not found - run conversion script first');
+        console.warn('  ⚠️  Skipping notebook to avoid JSON parsing OOM errors');
       }
 
       // 2. Load KNN SDG imputation log
